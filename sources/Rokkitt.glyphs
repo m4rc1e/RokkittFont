@@ -30,6 +30,10 @@ value = "http://scripts.sil.org/OFL";
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2016-08-04 09:56:17 +0000";
@@ -100,6 +104,18 @@ value = 0;
 {
 name = underlinePosition;
 value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -200;
@@ -139,6 +155,18 @@ value = 0;
 {
 name = underlinePosition;
 value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -200;
@@ -176,6 +204,18 @@ value = 0;
 },
 {
 name = underlinePosition;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
 value = 0;
 }
 );
@@ -32512,7 +32552,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = f_j;
-lastChange = "2016-08-04 13:14:04 +0000";
+lastChange = "2016-08-04 13:33:58 +0000";
 layers = (
 {
 layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -32627,6 +32667,10 @@ nodes = (
 }
 );
 width = 521;
+},
+{
+layerId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
+width = 600;
 }
 );
 userData = {
@@ -41409,7 +41453,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = uni007F;
-lastChange = "2016-08-04 13:14:04 +0000";
+lastChange = "2016-08-04 13:33:58 +0000";
 layers = (
 {
 layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -41418,6 +41462,10 @@ width = 293;
 {
 layerId = "98C086B7-81AA-4491-8494-0C6A76849168";
 width = 293;
+},
+{
+layerId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
+width = 600;
 }
 );
 unicode = 007F;
@@ -51323,7 +51371,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = NULL;
-lastChange = "2016-08-04 13:14:04 +0000";
+lastChange = "2016-08-04 13:33:58 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -51338,6 +51386,10 @@ width = 0;
 {
 layerId = "98C086B7-81AA-4491-8494-0C6A76849168";
 width = 0;
+},
+{
+layerId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
+width = 600;
 }
 );
 userData = {
@@ -51506,6 +51558,48 @@ disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
 instances = (
 {
+customParameters = (
+{
+name = typoAscender;
+value = 893;
+},
+{
+name = typoDescender;
+value = -211;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1039;
+},
+{
+name = winDescent;
+value = 353;
+},
+{
+name = underlineThickness;
+value = 0;
+},
+{
+name = underlinePosition;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 interpolationWeight = 600;
 instanceInterpolations = {
 "BE4F947C-73D7-4684-AEED-17801393DA53" = 0.333333;
