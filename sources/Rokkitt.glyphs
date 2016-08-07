@@ -1,6 +1,6 @@
 {
 .appVersion = "911";
-copyright = "Digitized data Copyright (c) 2011-2013, vernon adams.";
+copyright = "Copyright (c) 2011, The Rokkit Project Authors (vern@newtypography.co.uk)";
 customParameters = (
 {
 name = openTypeNameLicense;
@@ -121,7 +121,6 @@ value = 0;
 descender = -200;
 id = "98C086B7-81AA-4491-8494-0C6A76849168";
 weight = Light;
-weightValue = 200;
 xHeight = 393;
 },
 {
@@ -222,7 +221,7 @@ value = 0;
 descender = -200;
 id = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
 weight = Bold;
-weightValue = 700;
+weightValue = 900;
 xHeight = 393;
 }
 );
@@ -5524,7 +5523,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = H;
-lastChange = "2016-08-04 13:15:30 +0000";
+lastChange = "2016-08-04 14:17:00 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -5898,7 +5897,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = I;
-lastChange = "2016-08-04 13:15:30 +0000";
+lastChange = "2016-08-04 13:57:58 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -5966,10 +5965,6 @@ width = 311;
 },
 {
 anchors = (
-{
-name = ogonek;
-position = "{184, 0}";
-},
 {
 name = top;
 position = "{198, 561}";
@@ -10902,6 +10897,23 @@ paths = (
 {
 closed = 1;
 nodes = (
+"289 0 LINE",
+"289 53 LINE",
+"210 53 LINE",
+"210 510 LINE",
+"289 510 LINE",
+"289 563 LINE",
+"50 563 LINE",
+"50 510 LINE",
+"128 510 LINE",
+"128 53 LINE",
+"50 53 LINE",
+"50 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "333 160 LINE SMOOTH",
 "453 160 OFFCURVE",
 "520 211 OFFCURVE",
@@ -10920,23 +10932,6 @@ nodes = (
 "333 208 CURVE SMOOTH",
 "240 208 LINE",
 "240 160 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"289 0 LINE",
-"289 53 LINE",
-"210 53 LINE",
-"210 510 LINE",
-"289 510 LINE",
-"289 563 LINE",
-"50 563 LINE",
-"50 510 LINE",
-"128 510 LINE",
-"128 53 LINE",
-"50 53 LINE",
-"50 0 LINE"
 );
 }
 );
@@ -15915,7 +15910,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = a;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:14 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -15991,25 +15986,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"185 40 CURVE SMOOTH",
-"137 40 OFFCURVE",
-"109 70 OFFCURVE",
-"109 110 CURVE SMOOTH",
-"109 168 OFFCURVE",
-"155 185 OFFCURVE",
-"202 185 CURVE SMOOTH",
-"244 185 OFFCURVE",
-"278 178 OFFCURVE",
-"306 172 CURVE",
-"306 83 LINE",
-"264 54 OFFCURVE",
-"225 40 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"174 -11 CURVE SMOOTH",
 "228 -11 OFFCURVE",
 "268 4 OFFCURVE",
 "310 35 CURVE",
@@ -16041,7 +16017,26 @@ nodes = (
 "39 196 OFFCURVE",
 "39 106 CURVE SMOOTH",
 "39 41 OFFCURVE",
-"92 -11 OFFCURVE"
+"92 -11 OFFCURVE",
+"174 -11 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"137 40 OFFCURVE",
+"109 70 OFFCURVE",
+"109 110 CURVE SMOOTH",
+"109 168 OFFCURVE",
+"155 185 OFFCURVE",
+"202 185 CURVE SMOOTH",
+"244 185 OFFCURVE",
+"278 178 OFFCURVE",
+"306 172 CURVE",
+"306 83 LINE",
+"264 54 OFFCURVE",
+"225 40 OFFCURVE",
+"185 40 CURVE SMOOTH"
 );
 }
 );
@@ -16059,25 +16054,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"194 11 CURVE SMOOTH",
-"126 11 OFFCURVE",
-"89 55 OFFCURVE",
-"89 105 CURVE SMOOTH",
-"89 176 OFFCURVE",
-"141 201 OFFCURVE",
-"199 201 CURVE SMOOTH",
-"245 201 OFFCURVE",
-"294 191 OFFCURVE",
-"345 183 CURVE",
-"345 62 LINE",
-"280 25 OFFCURVE",
-"241 11 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"193 -11 CURVE SMOOTH",
 "239 -11 OFFCURVE",
 "288 5 OFFCURVE",
 "346 40 CURVE",
@@ -16109,7 +16085,26 @@ nodes = (
 "61 193 OFFCURVE",
 "61 106 CURVE SMOOTH",
 "61 36 OFFCURVE",
-"114 -11 OFFCURVE"
+"114 -11 OFFCURVE",
+"193 -11 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"126 11 OFFCURVE",
+"89 55 OFFCURVE",
+"89 105 CURVE SMOOTH",
+"89 176 OFFCURVE",
+"141 201 OFFCURVE",
+"199 201 CURVE SMOOTH",
+"245 201 OFFCURVE",
+"294 191 OFFCURVE",
+"345 183 CURVE",
+"345 62 LINE",
+"280 25 OFFCURVE",
+"241 11 OFFCURVE",
+"194 11 CURVE SMOOTH"
 );
 }
 );
@@ -16131,7 +16126,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"170 -10 CURVE SMOOTH",
 "208 -10 OFFCURVE",
 "257 2 OFFCURVE",
 "295 26 CURVE",
@@ -16161,13 +16155,13 @@ nodes = (
 "28 207 OFFCURVE",
 "28 120 CURVE SMOOTH",
 "28 28 OFFCURVE",
-"97 -10 OFFCURVE"
+"97 -10 OFFCURVE",
+"170 -10 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"225 76 CURVE SMOOTH",
 "201 76 OFFCURVE",
 "182 90 OFFCURVE",
 "182 114 CURVE SMOOTH",
@@ -16179,7 +16173,8 @@ nodes = (
 "268 153 CURVE",
 "268 90 LINE",
 "253 80 OFFCURVE",
-"237 76 OFFCURVE"
+"237 76 OFFCURVE",
+"225 76 CURVE SMOOTH"
 );
 }
 );
@@ -17168,7 +17163,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = ae;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -17188,7 +17183,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"187 -11 CURVE SMOOTH",
 "240 -11 OFFCURVE",
 "297 -1 OFFCURVE",
 "366 48 CURVE",
@@ -17233,13 +17227,13 @@ nodes = (
 "40 195 OFFCURVE",
 "40 105 CURVE SMOOTH",
 "40 17 OFFCURVE",
-"124 -11 OFFCURVE"
+"124 -11 OFFCURVE",
+"187 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"197 37 CURVE SMOOTH",
 "150 37 OFFCURVE",
 "110 54 OFFCURVE",
 "110 108 CURVE SMOOTH",
@@ -17253,19 +17247,20 @@ nodes = (
 "322 114 OFFCURVE",
 "335 88 CURVE",
 "302 59 OFFCURVE",
-"259 37 OFFCURVE"
+"259 37 OFFCURVE",
+"197 37 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"628 227 CURVE",
-"389 227 LINE",
 "396 294 OFFCURVE",
 "440 349 OFFCURVE",
 "516 349 CURVE SMOOTH",
 "585 349 OFFCURVE",
-"625 300 OFFCURVE"
+"625 300 OFFCURVE",
+"628 227 CURVE",
+"389 227 LINE"
 );
 }
 );
@@ -17283,7 +17278,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"210 -11 CURVE SMOOTH",
 "265 -11 OFFCURVE",
 "338 -5 OFFCURVE",
 "403 53 CURVE",
@@ -17328,13 +17322,13 @@ nodes = (
 "70 191 OFFCURVE",
 "70 105 CURVE SMOOTH",
 "70 28 OFFCURVE",
-"120 -11 OFFCURVE"
+"120 -11 OFFCURVE",
+"210 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"212 10 CURVE SMOOTH",
 "134 10 OFFCURVE",
 "98 44 OFFCURVE",
 "98 105 CURVE SMOOTH",
@@ -17348,19 +17342,20 @@ nodes = (
 "374 105 OFFCURVE",
 "391 71 CURVE",
 "347 27 OFFCURVE",
-"289 10 OFFCURVE"
+"289 10 OFFCURVE",
+"212 10 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"707 211 CURVE",
-"393 211 LINE",
 "397 299 OFFCURVE",
 "449 381 OFFCURVE",
 "557 381 CURVE SMOOTH",
 "649 381 OFFCURVE",
-"707 317 OFFCURVE"
+"707 317 OFFCURVE",
+"707 211 CURVE",
+"393 211 LINE"
 );
 }
 );
@@ -17378,7 +17373,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"216 -11 CURVE SMOOTH",
 "266 -11 OFFCURVE",
 "297 -1 OFFCURVE",
 "351 35 CURVE",
@@ -17423,13 +17417,13 @@ nodes = (
 "39 207 OFFCURVE",
 "39 120 CURVE SMOOTH",
 "39 0 OFFCURVE",
-"149 -11 OFFCURVE"
+"149 -11 OFFCURVE",
+"216 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"240 75 CURVE SMOOTH",
 "211 75 OFFCURVE",
 "192 91 OFFCURVE",
 "192 114 CURVE SMOOTH",
@@ -17443,19 +17437,20 @@ nodes = (
 "292 109 OFFCURVE",
 "301 92 CURVE",
 "284 83 OFFCURVE",
-"261 75 OFFCURVE"
+"261 75 OFFCURVE",
+"240 75 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"457 249 LINE",
 "464 292 OFFCURVE",
 "484 315 OFFCURVE",
 "511 315 CURVE SMOOTH",
 "545 315 OFFCURVE",
 "566 292 OFFCURVE",
-"563 249 CURVE"
+"563 249 CURVE",
+"457 249 LINE"
 );
 }
 );
@@ -17586,7 +17581,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = b;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:12:41 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -17606,12 +17601,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"25 0 LINE",
-"172 0 LINE",
-"172 33 LINE",
-"205 4 OFFCURVE",
-"246 -10 OFFCURVE",
-"293 -10 CURVE SMOOTH",
 "402 -10 OFFCURVE",
 "497 67 OFFCURVE",
 "497 202 CURVE SMOOTH",
@@ -17626,12 +17615,20 @@ nodes = (
 "27 521 LINE",
 "98 521 LINE",
 "98 53 LINE",
-"25 53 LINE"
+"25 53 LINE",
+"25 0 LINE",
+"172 0 LINE",
+"172 33 LINE",
+"205 4 OFFCURVE",
+"246 -10 OFFCURVE",
+"293 -10 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"244 45 OFFCURVE",
+"204 60 OFFCURVE",
 "172 85 CURVE",
 "172 303 LINE",
 "208 332 OFFCURVE",
@@ -17642,9 +17639,7 @@ nodes = (
 "420 196 CURVE SMOOTH",
 "420 97 OFFCURVE",
 "359 45 OFFCURVE",
-"280 45 CURVE SMOOTH",
-"244 45 OFFCURVE",
-"204 60 OFFCURVE"
+"280 45 CURVE SMOOTH"
 );
 }
 );
@@ -17662,12 +17657,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"31 0 LINE",
-"129 0 LINE",
-"129 46 LINE",
-"167 10 OFFCURVE",
-"219 -11 OFFCURVE",
-"270 -11 CURVE SMOOTH",
 "396 -11 OFFCURVE",
 "479 70 OFFCURVE",
 "479 201 CURVE SMOOTH",
@@ -17682,12 +17671,20 @@ nodes = (
 "35 551 LINE",
 "100 551 LINE",
 "100 22 LINE",
-"31 22 LINE"
+"31 22 LINE",
+"31 0 LINE",
+"129 0 LINE",
+"129 46 LINE",
+"167 10 OFFCURVE",
+"219 -11 OFFCURVE",
+"270 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"220 11 OFFCURVE",
+"168 34 OFFCURVE",
 "129 71 CURVE",
 "129 326 LINE",
 "174 360 OFFCURVE",
@@ -17698,9 +17695,7 @@ nodes = (
 "450 195 CURVE SMOOTH",
 "450 82 OFFCURVE",
 "379 11 OFFCURVE",
-"268 11 CURVE SMOOTH",
-"220 11 OFFCURVE",
-"168 34 OFFCURVE"
+"268 11 CURVE SMOOTH"
 );
 }
 );
@@ -17718,6 +17713,14 @@ paths = (
 {
 closed = 1;
 nodes = (
+"487 -10 OFFCURVE",
+"580 67 OFFCURVE",
+"580 206 CURVE SMOOTH",
+"580 316 OFFCURVE",
+"514 403 OFFCURVE",
+"385 403 CURVE SMOOTH",
+"346 403 OFFCURVE",
+"306 391 OFFCURVE",
 "267 368 CURVE",
 "267 573 LINE",
 "19 573 LINE",
@@ -17730,33 +17733,25 @@ nodes = (
 "267 21 LINE",
 "303 0 OFFCURVE",
 "340 -10 OFFCURVE",
-"379 -10 CURVE SMOOTH",
-"487 -10 OFFCURVE",
-"580 67 OFFCURVE",
-"580 206 CURVE SMOOTH",
-"580 316 OFFCURVE",
-"514 403 OFFCURVE",
-"385 403 CURVE SMOOTH",
-"346 403 OFFCURVE",
-"306 391 OFFCURVE"
+"379 -10 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"267 84 CURVE",
+"283 85 OFFCURVE",
+"276 85 OFFCURVE",
+"267 86 CURVE",
 "267 294 LINE",
-"280 294 OFFCURVE",
-"291 294 OFFCURVE",
-"302 294 CURVE SMOOTH",
+"279 294 OFFCURVE",
+"290 294 OFFCURVE",
+"302 294 CURVE",
 "386 294 OFFCURVE",
 "399 231 OFFCURVE",
 "399 195 CURVE SMOOTH",
 "399 128 OFFCURVE",
 "354 85 OFFCURVE",
-"290 85 CURVE SMOOTH",
-"283 85 OFFCURVE",
-"276 85 OFFCURVE"
+"290 85 CURVE SMOOTH"
 );
 }
 );
@@ -17787,7 +17782,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = c;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -17847,6 +17842,15 @@ paths = (
 {
 closed = 1;
 nodes = (
+"323 -10 OFFCURVE",
+"384 24 OFFCURVE",
+"423 75 CURVE",
+"392 120 LINE",
+"356 79 OFFCURVE",
+"317 48 OFFCURVE",
+"247 48 CURVE SMOOTH",
+"162 48 OFFCURVE",
+"103 111 OFFCURVE",
 "103 201 CURVE SMOOTH",
 "103 285 OFFCURVE",
 "163 346 OFFCURVE",
@@ -17866,16 +17870,7 @@ nodes = (
 "26 199 CURVE SMOOTH",
 "26 77 OFFCURVE",
 "115 -10 OFFCURVE",
-"240 -10 CURVE SMOOTH",
-"323 -10 OFFCURVE",
-"384 24 OFFCURVE",
-"423 75 CURVE",
-"392 120 LINE",
-"356 79 OFFCURVE",
-"317 48 OFFCURVE",
-"247 48 CURVE SMOOTH",
-"162 48 OFFCURVE",
-"103 111 OFFCURVE"
+"240 -10 CURVE SMOOTH"
 );
 }
 );
@@ -17897,6 +17892,15 @@ paths = (
 {
 closed = 1;
 nodes = (
+"304 -11 OFFCURVE",
+"354 11 OFFCURVE",
+"398 59 CURVE",
+"395 82 LINE",
+"347 33 OFFCURVE",
+"303 12 OFFCURVE",
+"234 12 CURVE SMOOTH",
+"131 12 OFFCURVE",
+"59 89 OFFCURVE",
 "59 197 CURVE SMOOTH",
 "59 305 OFFCURVE",
 "134 381 OFFCURVE",
@@ -17916,16 +17920,7 @@ nodes = (
 "30 198 CURVE SMOOTH",
 "30 76 OFFCURVE",
 "114 -11 OFFCURVE",
-"233 -11 CURVE SMOOTH",
-"304 -11 OFFCURVE",
-"354 11 OFFCURVE",
-"398 59 CURVE",
-"395 82 LINE",
-"347 33 OFFCURVE",
-"303 12 OFFCURVE",
-"234 12 CURVE SMOOTH",
-"131 12 OFFCURVE",
-"59 89 OFFCURVE"
+"233 -11 CURVE SMOOTH"
 );
 }
 );
@@ -17947,7 +17942,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"266 -11 CURVE SMOOTH",
 "324 -11 OFFCURVE",
 "394 11 OFFCURVE",
 "452 50 CURVE",
@@ -17975,7 +17969,8 @@ nodes = (
 "21 319 OFFCURVE",
 "21 201 CURVE SMOOTH",
 "21 66 OFFCURVE",
-"110 -11 OFFCURVE"
+"110 -11 OFFCURVE",
+"266 -11 CURVE SMOOTH"
 );
 }
 );
@@ -18528,7 +18523,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = d;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -18556,6 +18551,9 @@ paths = (
 {
 closed = 1;
 nodes = (
+"271 -11 OFFCURVE",
+"317 3 OFFCURVE",
+"354 29 CURVE",
 "354 0 LINE",
 "490 0 LINE",
 "490 53 LINE",
@@ -18573,20 +18571,12 @@ nodes = (
 "28 197 CURVE SMOOTH",
 "28 66 OFFCURVE",
 "121 -11 OFFCURVE",
-"229 -11 CURVE SMOOTH",
-"271 -11 OFFCURVE",
-"317 3 OFFCURVE",
-"354 29 CURVE"
+"229 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"354 309 CURVE",
-"354 81 LINE",
-"320 59 OFFCURVE",
-"280 45 OFFCURVE",
-"245 45 CURVE SMOOTH",
 "167 45 OFFCURVE",
 "105 97 OFFCURVE",
 "105 191 CURVE SMOOTH",
@@ -18594,7 +18584,12 @@ nodes = (
 "160 347 OFFCURVE",
 "236 347 CURVE SMOOTH",
 "274 347 OFFCURVE",
-"317 333 OFFCURVE"
+"317 333 OFFCURVE",
+"354 309 CURVE",
+"354 81 LINE",
+"320 59 OFFCURVE",
+"280 45 OFFCURVE",
+"245 45 CURVE SMOOTH"
 );
 }
 );
@@ -18620,6 +18615,9 @@ paths = (
 {
 closed = 1;
 nodes = (
+"288 -11 OFFCURVE",
+"344 11 OFFCURVE",
+"383 43 CURVE",
 "383 0 LINE",
 "479 0 LINE",
 "479 22 LINE",
@@ -18637,20 +18635,12 @@ nodes = (
 "30 197 CURVE SMOOTH",
 "30 74 OFFCURVE",
 "118 -11 OFFCURVE",
-"238 -11 CURVE SMOOTH",
-"288 -11 OFFCURVE",
-"344 11 OFFCURVE",
-"383 43 CURVE"
+"238 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"383 327 CURVE",
-"383 67 LINE",
-"343 34 OFFCURVE",
-"288 12 OFFCURVE",
-"240 12 CURVE SMOOTH",
 "135 12 OFFCURVE",
 "59 86 OFFCURVE",
 "59 193 CURVE SMOOTH",
@@ -18658,7 +18648,12 @@ nodes = (
 "129 381 OFFCURVE",
 "228 381 CURVE SMOOTH",
 "280 381 OFFCURVE",
-"340 359 OFFCURVE"
+"340 359 OFFCURVE",
+"383 327 CURVE",
+"383 67 LINE",
+"343 34 OFFCURVE",
+"288 12 OFFCURVE",
+"240 12 CURVE SMOOTH"
 );
 }
 );
@@ -18684,6 +18679,12 @@ paths = (
 {
 closed = 1;
 nodes = (
+"282 -11 OFFCURVE",
+"311 -1 OFFCURVE",
+"336 15 CURVE",
+"336 0 LINE",
+"549 0 LINE",
+"549 109 LINE",
 "507 109 LINE",
 "507 573 LINE",
 "265 573 LINE",
@@ -18698,18 +18699,14 @@ nodes = (
 "21 186 CURVE SMOOTH",
 "21 69 OFFCURVE",
 "107 -11 OFFCURVE",
-"246 -11 CURVE SMOOTH",
-"282 -11 OFFCURVE",
-"311 -1 OFFCURVE",
-"336 15 CURVE",
-"336 0 LINE",
-"549 0 LINE",
-"549 109 LINE"
+"246 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"234 99 OFFCURVE",
+"201 141 OFFCURVE",
 "201 199 CURVE SMOOTH",
 "201 262 OFFCURVE",
 "240 294 OFFCURVE",
@@ -18720,9 +18717,7 @@ nodes = (
 "336 104 LINE",
 "316 101 OFFCURVE",
 "299 99 OFFCURVE",
-"286 99 CURVE SMOOTH",
-"234 99 OFFCURVE",
-"201 141 OFFCURVE"
+"286 99 CURVE SMOOTH"
 );
 }
 );
@@ -18753,7 +18748,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = eth;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -18767,7 +18762,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"242 -10 CURVE SMOOTH",
 "357 -10 OFFCURVE",
 "442 75 OFFCURVE",
 "442 195 CURVE SMOOTH",
@@ -18785,13 +18779,13 @@ nodes = (
 "42 308 OFFCURVE",
 "42 205 CURVE SMOOTH",
 "42 87 OFFCURVE",
-"112 -10 OFFCURVE"
+"112 -10 OFFCURVE",
+"242 -10 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"242 49 CURVE SMOOTH",
 "159 49 OFFCURVE",
 "113 120 OFFCURVE",
 "113 198 CURVE SMOOTH",
@@ -18802,16 +18796,17 @@ nodes = (
 "374 286 OFFCURVE",
 "374 195 CURVE SMOOTH",
 "374 122 OFFCURVE",
-"335 49 OFFCURVE"
+"335 49 OFFCURVE",
+"242 49 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"111 432 LINE",
 "406 564 LINE",
 "383 608 LINE",
-"89 477 LINE"
+"89 477 LINE",
+"111 432 LINE"
 );
 }
 );
@@ -18823,7 +18818,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"216 -11 CURVE SMOOTH",
 "317 -11 OFFCURVE",
 "405 61 OFFCURVE",
 "405 193 CURVE SMOOTH",
@@ -18841,13 +18835,13 @@ nodes = (
 "22 307 OFFCURVE",
 "22 212 CURVE SMOOTH",
 "22 100 OFFCURVE",
-"83 -11 OFFCURVE"
+"83 -11 OFFCURVE",
+"216 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"216 15 CURVE SMOOTH",
 "101 15 OFFCURVE",
 "52 111 OFFCURVE",
 "52 201 CURVE SMOOTH",
@@ -18858,16 +18852,17 @@ nodes = (
 "377 318 OFFCURVE",
 "377 198 CURVE SMOOTH",
 "377 109 OFFCURVE",
-"332 15 OFFCURVE"
+"332 15 OFFCURVE",
+"216 15 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"85 446 LINE",
 "356 563 LINE",
 "344 583 LINE",
-"73 468 LINE"
+"73 468 LINE",
+"85 446 LINE"
 );
 }
 );
@@ -18879,7 +18874,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"291 -11 CURVE SMOOTH",
 "447 -11 OFFCURVE",
 "537 102 OFFCURVE",
 "537 225 CURVE SMOOTH",
@@ -18897,13 +18891,13 @@ nodes = (
 "76 273 OFFCURVE",
 "76 190 CURVE SMOOTH",
 "76 88 OFFCURVE",
-"135 -11 OFFCURVE"
+"135 -11 OFFCURVE",
+"291 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"309 107 CURVE SMOOTH",
 "263 107 OFFCURVE",
 "235 143 OFFCURVE",
 "235 208 CURVE SMOOTH",
@@ -18914,16 +18908,17 @@ nodes = (
 "380 264 OFFCURVE",
 "380 208 CURVE SMOOTH",
 "380 142 OFFCURVE",
-"352 107 OFFCURVE"
+"352 107 OFFCURVE",
+"309 107 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"235 448 LINE",
 "535 594 LINE",
 "491 692 LINE",
-"189 546 LINE"
+"189 546 LINE",
+"235 448 LINE"
 );
 }
 );
@@ -19098,7 +19093,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = e;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -19161,19 +19156,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"103 227 LINE",
-"110 299 OFFCURVE",
-"166 349 OFFCURVE",
-"233 349 CURVE SMOOTH",
-"294 349 OFFCURVE",
-"345 304 OFFCURVE",
-"353 227 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"241 -10 CURVE SMOOTH",
 "314 -10 OFFCURVE",
 "382 21 OFFCURVE",
 "419 63 CURVE",
@@ -19192,7 +19174,20 @@ nodes = (
 "25 323 OFFCURVE",
 "25 196 CURVE SMOOTH",
 "25 72 OFFCURVE",
-"119 -10 OFFCURVE"
+"119 -10 OFFCURVE",
+"241 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"110 299 OFFCURVE",
+"166 349 OFFCURVE",
+"233 349 CURVE SMOOTH",
+"294 349 OFFCURVE",
+"345 304 OFFCURVE",
+"353 227 CURVE",
+"103 227 LINE"
 );
 }
 );
@@ -19214,19 +19209,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"59 210 LINE",
-"63 314 OFFCURVE",
-"138 381 OFFCURVE",
-"229 381 CURVE SMOOTH",
-"309 381 OFFCURVE",
-"382 327 OFFCURVE",
-"394 210 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"237 -11 CURVE SMOOTH",
 "298 -11 OFFCURVE",
 "362 14 OFFCURVE",
 "412 63 CURVE",
@@ -19245,7 +19227,20 @@ nodes = (
 "30 333 OFFCURVE",
 "30 197 CURVE SMOOTH",
 "30 66 OFFCURVE",
-"129 -11 OFFCURVE"
+"129 -11 OFFCURVE",
+"237 -11 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"63 314 OFFCURVE",
+"138 381 OFFCURVE",
+"229 381 CURVE SMOOTH",
+"309 381 OFFCURVE",
+"382 327 OFFCURVE",
+"394 210 CURVE",
+"59 210 LINE"
 );
 }
 );
@@ -19271,7 +19266,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"263 -10 CURVE SMOOTH",
 "330 -10 OFFCURVE",
 "396 8 OFFCURVE",
 "443 42 CURVE",
@@ -19290,19 +19284,20 @@ nodes = (
 "20 327 OFFCURVE",
 "20 192 CURVE SMOOTH",
 "20 63 OFFCURVE",
-"108 -10 OFFCURVE"
+"108 -10 OFFCURVE",
+"263 -10 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"198 249 LINE",
 "205 292 OFFCURVE",
 "224 315 OFFCURVE",
 "252 315 CURVE SMOOTH",
 "288 315 OFFCURVE",
 "306 292 OFFCURVE",
-"303 249 CURVE"
+"303 249 CURVE",
+"198 249 LINE"
 );
 }
 );
@@ -20113,7 +20108,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = f;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -20133,7 +20128,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"41 0 LINE",
 "294 0 LINE",
 "294 53 LINE",
 "193 53 LINE",
@@ -20160,7 +20154,8 @@ nodes = (
 "42 340 LINE",
 "119 340 LINE",
 "119 53 LINE",
-"41 53 LINE"
+"41 53 LINE",
+"41 0 LINE"
 );
 }
 );
@@ -20178,7 +20173,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"54 0 LINE",
 "253 0 LINE",
 "253 22 LINE",
 "158 22 LINE",
@@ -20205,7 +20199,8 @@ nodes = (
 "52 371 LINE",
 "127 371 LINE",
 "127 22 LINE",
-"54 22 LINE"
+"54 22 LINE",
+"54 0 LINE"
 );
 }
 );
@@ -20223,8 +20218,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"32 109 LINE",
-"32 0 LINE",
 "416 0 LINE",
 "416 109 LINE",
 "298 109 LINE",
@@ -20250,7 +20243,9 @@ nodes = (
 "31 393 LINE",
 "31 283 LINE",
 "126 283 LINE",
-"126 109 LINE"
+"126 109 LINE",
+"32 109 LINE",
+"32 0 LINE"
 );
 }
 );
@@ -20281,7 +20276,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = g;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -20329,7 +20324,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"235 -188 CURVE SMOOTH",
 "350 -188 OFFCURVE",
 "437 -137 OFFCURVE",
 "437 -9 CURVE SMOOTH",
@@ -20359,17 +20353,13 @@ nodes = (
 "102 -106 CURVE",
 "87 -164 LINE",
 "136 -179 OFFCURVE",
-"188 -188 OFFCURVE"
+"188 -188 OFFCURVE",
+"235 -188 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"362 307 CURVE",
-"363 91 LINE",
-"328 66 OFFCURVE",
-"285 52 OFFCURVE",
-"247 52 CURVE SMOOTH",
 "169 52 OFFCURVE",
 "108 103 OFFCURVE",
 "108 195 CURVE SMOOTH",
@@ -20377,7 +20367,12 @@ nodes = (
 "163 348 OFFCURVE",
 "239 348 CURVE SMOOTH",
 "279 348 OFFCURVE",
-"324 332 OFFCURVE"
+"324 332 OFFCURVE",
+"362 307 CURVE",
+"363 91 LINE",
+"328 66 OFFCURVE",
+"285 52 OFFCURVE",
+"247 52 CURVE SMOOTH"
 );
 }
 );
@@ -20395,7 +20390,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"233 -184 CURVE SMOOTH",
 "347 -184 OFFCURVE",
 "417 -129 OFFCURVE",
 "417 -8 CURVE SMOOTH",
@@ -20425,17 +20419,13 @@ nodes = (
 "98 -138 CURVE",
 "93 -161 LINE",
 "144 -174 OFFCURVE",
-"192 -184 OFFCURVE"
+"192 -184 OFFCURVE",
+"233 -184 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"388 324 CURVE",
-"388 77 LINE",
-"349 42 OFFCURVE",
-"290 19 OFFCURVE",
-"240 19 CURVE SMOOTH",
 "135 19 OFFCURVE",
 "60 91 OFFCURVE",
 "60 197 CURVE SMOOTH",
@@ -20443,7 +20433,12 @@ nodes = (
 "129 381 OFFCURVE",
 "229 381 CURVE SMOOTH",
 "283 381 OFFCURVE",
-"345 358 OFFCURVE"
+"345 358 OFFCURVE",
+"388 324 CURVE",
+"388 77 LINE",
+"349 42 OFFCURVE",
+"290 19 OFFCURVE",
+"240 19 CURVE SMOOTH"
 );
 }
 );
@@ -20461,7 +20456,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"235 -197 CURVE SMOOTH",
 "372 -197 OFFCURVE",
 "488 -152 OFFCURVE",
 "488 44 CURVE SMOOTH",
@@ -20493,12 +20487,15 @@ nodes = (
 "96 -60 CURVE",
 "70 -168 LINE",
 "123 -184 OFFCURVE",
-"169 -197 OFFCURVE"
+"169 -197 OFFCURVE",
+"235 -197 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"301 104 OFFCURVE",
+"294 104 OFFCURVE",
 "288 104 CURVE SMOOTH",
 "235 104 OFFCURVE",
 "203 146 OFFCURVE",
@@ -20509,9 +20506,7 @@ nodes = (
 "305 295 OFFCURVE",
 "308 297 OFFCURVE",
 "311 299 CURVE",
-"311 103 LINE",
-"301 104 OFFCURVE",
-"294 104 OFFCURVE"
+"311 103 LINE"
 );
 }
 );
@@ -20928,7 +20923,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = h;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -20952,7 +20947,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"21 0 LINE",
 "232 0 LINE",
 "232 53 LINE",
 "168 53 LINE",
@@ -20981,7 +20975,8 @@ nodes = (
 "22 521 LINE",
 "94 521 LINE",
 "94 53 LINE",
-"21 53 LINE"
+"21 53 LINE",
+"21 0 LINE"
 );
 }
 );
@@ -21003,7 +20998,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"14 0 LINE",
 "187 0 LINE",
 "187 22 LINE",
 "115 22 LINE",
@@ -21032,7 +21026,8 @@ nodes = (
 "17 551 LINE",
 "86 551 LINE",
 "86 22 LINE",
-"14 22 LINE"
+"14 22 LINE",
+"14 0 LINE"
 );
 }
 );
@@ -21054,21 +21049,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"565 109 LINE",
-"565 230 LINE SMOOTH",
-"567 351 OFFCURVE",
-"507 403 OFFCURVE",
-"426 403 CURVE SMOOTH",
-"364 403 OFFCURVE",
-"309 380 OFFCURVE",
-"254 326 CURVE",
-"254 573 LINE",
-"21 573 LINE",
-"21 464 LINE",
-"83 464 LINE",
-"83 109 LINE",
-"21 109 LINE",
-"21 0 LINE",
 "313 0 LINE",
 "313 109 LINE",
 "254 109 LINE",
@@ -21083,7 +21063,22 @@ nodes = (
 "348 109 LINE",
 "348 0 LINE",
 "630 0 LINE",
-"630 109 LINE"
+"630 109 LINE",
+"565 109 LINE",
+"565 230 LINE SMOOTH",
+"567 351 OFFCURVE",
+"507 403 OFFCURVE",
+"426 403 CURVE SMOOTH",
+"364 403 OFFCURVE",
+"309 380 OFFCURVE",
+"254 326 CURVE",
+"254 573 LINE",
+"21 573 LINE",
+"21 464 LINE",
+"83 464 LINE",
+"83 109 LINE",
+"21 109 LINE",
+"21 0 LINE"
 );
 }
 );
@@ -21258,7 +21253,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = i;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -21272,7 +21267,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"163 479 CURVE SMOOTH",
+"280 0 LINE",
+"280 53 LINE",
+"209 53 LINE",
+"209 393 LINE",
+"61 393 LINE",
+"61 340 LINE",
+"136 340 LINE",
+"136 53 LINE",
+"60 53 LINE",
+"60 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "193 479 OFFCURVE",
 "217 501 OFFCURVE",
 "217 530 CURVE SMOOTH",
@@ -21283,22 +21292,8 @@ nodes = (
 "109 559 OFFCURVE",
 "109 530 CURVE SMOOTH",
 "109 501 OFFCURVE",
-"133 479 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"60 0 LINE",
-"280 0 LINE",
-"280 53 LINE",
-"209 53 LINE",
-"209 393 LINE",
-"61 393 LINE",
-"61 340 LINE",
-"136 340 LINE",
-"136 53 LINE",
-"60 53 LINE"
+"133 479 OFFCURVE",
+"163 479 CURVE SMOOTH"
 );
 }
 );
@@ -21310,7 +21305,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"142 495 CURVE SMOOTH",
+"248 0 LINE",
+"248 22 LINE",
+"164 22 LINE",
+"164 393 LINE",
+"50 393 LINE",
+"50 371 LINE",
+"135 371 LINE",
+"135 22 LINE",
+"49 22 LINE",
+"49 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "158 495 OFFCURVE",
 "169 505 OFFCURVE",
 "169 520 CURVE SMOOTH",
@@ -21321,22 +21330,8 @@ nodes = (
 "116 534 OFFCURVE",
 "116 520 CURVE SMOOTH",
 "116 505 OFFCURVE",
-"126 495 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"49 0 LINE",
-"248 0 LINE",
-"248 22 LINE",
-"164 22 LINE",
-"164 393 LINE",
-"50 393 LINE",
-"50 371 LINE",
-"135 371 LINE",
-"135 22 LINE",
-"49 22 LINE"
+"126 495 OFFCURVE",
+"142 495 CURVE SMOOTH"
 );
 }
 );
@@ -21358,7 +21353,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"164 472 CURVE SMOOTH",
+"309 0 LINE",
+"309 109 LINE",
+"261 109 LINE",
+"261 393 LINE",
+"39 393 LINE",
+"39 283 LINE",
+"89 283 LINE",
+"89 109 LINE",
+"33 109 LINE",
+"33 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "224 472 OFFCURVE",
 "263 509 OFFCURVE",
 "262 567 CURVE SMOOTH",
@@ -21369,22 +21378,8 @@ nodes = (
 "65 624 OFFCURVE",
 "65 567 CURVE SMOOTH",
 "65 509 OFFCURVE",
-"104 472 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"33 109 LINE",
-"33 0 LINE",
-"309 0 LINE",
-"309 109 LINE",
-"261 109 LINE",
-"261 393 LINE",
-"39 393 LINE",
-"39 283 LINE",
-"89 283 LINE",
-"89 109 LINE"
+"104 472 OFFCURVE",
+"164 472 CURVE SMOOTH"
 );
 }
 );
@@ -21415,7 +21410,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = dotlessi;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -21439,7 +21434,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"60 0 LINE",
 "280 0 LINE",
 "280 53 LINE",
 "209 53 LINE",
@@ -21448,7 +21442,8 @@ nodes = (
 "61 340 LINE",
 "136 340 LINE",
 "136 53 LINE",
-"60 53 LINE"
+"60 53 LINE",
+"60 0 LINE"
 );
 }
 );
@@ -21470,7 +21465,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"49 0 LINE",
 "248 0 LINE",
 "248 22 LINE",
 "164 22 LINE",
@@ -21479,7 +21473,8 @@ nodes = (
 "50 371 LINE",
 "135 371 LINE",
 "135 22 LINE",
-"49 22 LINE"
+"49 22 LINE",
+"49 0 LINE"
 );
 }
 );
@@ -21501,7 +21496,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"74 0 LINE",
 "349 0 LINE",
 "349 109 LINE",
 "302 109 LINE",
@@ -21510,7 +21504,8 @@ nodes = (
 "80 283 LINE",
 "130 283 LINE",
 "130 109 LINE",
-"74 109 LINE"
+"74 109 LINE",
+"74 0 LINE"
 );
 }
 );
@@ -22250,7 +22245,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = j;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -22264,24 +22259,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"134 479 CURVE SMOOTH",
-"165 479 OFFCURVE",
-"188 501 OFFCURVE",
-"188 531 CURVE SMOOTH",
-"188 559 OFFCURVE",
-"165 581 OFFCURVE",
-"134 581 CURVE SMOOTH",
-"104 581 OFFCURVE",
-"80 559 OFFCURVE",
-"80 531 CURVE SMOOTH",
-"80 501 OFFCURVE",
-"104 479 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"5 -152 LINE",
 "48 -152 LINE SMOOTH",
 "175 -152 OFFCURVE",
 "187 -85 OFFCURVE",
@@ -22298,7 +22275,25 @@ nodes = (
 "112 -69 OFFCURVE",
 "101 -94 OFFCURVE",
 "47 -94 CURVE SMOOTH",
-"5 -94 LINE"
+"5 -94 LINE",
+"5 -152 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"165 479 OFFCURVE",
+"188 501 OFFCURVE",
+"188 531 CURVE SMOOTH",
+"188 559 OFFCURVE",
+"165 581 OFFCURVE",
+"134 581 CURVE SMOOTH",
+"104 581 OFFCURVE",
+"80 559 OFFCURVE",
+"80 531 CURVE SMOOTH",
+"80 501 OFFCURVE",
+"104 479 OFFCURVE",
+"134 479 CURVE SMOOTH"
 );
 }
 );
@@ -22310,24 +22305,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"115 496 CURVE SMOOTH",
-"131 496 OFFCURVE",
-"142 506 OFFCURVE",
-"142 521 CURVE SMOOTH",
-"142 534 OFFCURVE",
-"131 544 OFFCURVE",
-"115 544 CURVE SMOOTH",
-"100 544 OFFCURVE",
-"88 534 OFFCURVE",
-"88 521 CURVE SMOOTH",
-"88 506 OFFCURVE",
-"100 496 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"10 -122 LINE",
 "47 -122 LINE SMOOTH",
 "131 -122 OFFCURVE",
 "139 -76 OFFCURVE",
@@ -22344,7 +22321,25 @@ nodes = (
 "108 -78 OFFCURVE",
 "104 -101 OFFCURVE",
 "42 -101 CURVE SMOOTH",
-"10 -101 LINE"
+"10 -101 LINE",
+"10 -122 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"131 496 OFFCURVE",
+"142 506 OFFCURVE",
+"142 521 CURVE SMOOTH",
+"142 534 OFFCURVE",
+"131 544 OFFCURVE",
+"115 544 CURVE SMOOTH",
+"100 544 OFFCURVE",
+"88 534 OFFCURVE",
+"88 521 CURVE SMOOTH",
+"88 506 OFFCURVE",
+"100 496 OFFCURVE",
+"115 496 CURVE SMOOTH"
 );
 }
 );
@@ -22362,25 +22357,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"179 473 CURVE SMOOTH",
-"239 473 OFFCURVE",
-"278 510 OFFCURVE",
-"277 568 CURVE SMOOTH",
-"277 625 OFFCURVE",
-"239 662 OFFCURVE",
-"179 662 CURVE SMOOTH",
-"119 662 OFFCURVE",
-"81 625 OFFCURVE",
-"81 568 CURVE SMOOTH",
-"81 510 OFFCURVE",
-"119 473 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-10 -41 LINE",
-"-10 -169 LINE",
 "45 -169 LINE SMOOTH",
 "330 -169 OFFCURVE",
 "286 33 OFFCURVE",
@@ -22392,7 +22368,26 @@ nodes = (
 "107 47 LINE SMOOTH",
 "107 -39 OFFCURVE",
 "75 -41 OFFCURVE",
-"19 -41 CURVE SMOOTH"
+"19 -41 CURVE SMOOTH",
+"-10 -41 LINE",
+"-10 -169 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"239 473 OFFCURVE",
+"278 510 OFFCURVE",
+"277 568 CURVE SMOOTH",
+"277 625 OFFCURVE",
+"239 662 OFFCURVE",
+"179 662 CURVE SMOOTH",
+"119 662 OFFCURVE",
+"81 625 OFFCURVE",
+"81 568 CURVE SMOOTH",
+"81 510 OFFCURVE",
+"119 473 OFFCURVE",
+"179 473 CURVE SMOOTH"
 );
 }
 );
@@ -22423,7 +22418,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = uni0237;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -22443,7 +22438,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"5 -152 LINE",
 "48 -152 LINE SMOOTH",
 "181 -152 OFFCURVE",
 "186 -78 OFFCURVE",
@@ -22456,7 +22450,8 @@ nodes = (
 "112 -68 OFFCURVE",
 "103 -94 OFFCURVE",
 "47 -94 CURVE SMOOTH",
-"5 -94 LINE"
+"5 -94 LINE",
+"5 -152 LINE"
 );
 }
 );
@@ -22474,7 +22469,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"10 -122 LINE",
 "47 -122 LINE SMOOTH",
 "147 -122 OFFCURVE",
 "138 -53 OFFCURVE",
@@ -22487,7 +22481,8 @@ nodes = (
 "108 -73 OFFCURVE",
 "110 -101 OFFCURVE",
 "42 -101 CURVE SMOOTH",
-"10 -101 LINE"
+"10 -101 LINE",
+"10 -122 LINE"
 );
 }
 );
@@ -22505,7 +22500,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-10 -169 LINE",
 "45 -169 LINE SMOOTH",
 "330 -169 OFFCURVE",
 "286 33 OFFCURVE",
@@ -22518,7 +22512,8 @@ nodes = (
 "107 -39 OFFCURVE",
 "75 -41 OFFCURVE",
 "19 -41 CURVE SMOOTH",
-"-10 -41 LINE"
+"-10 -41 LINE",
+"-10 -169 LINE"
 );
 }
 );
@@ -22621,7 +22616,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = k;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -22650,6 +22645,10 @@ paths = (
 {
 closed = 1;
 nodes = (
+"238 0 LINE",
+"238 53 LINE",
+"174 53 LINE",
+"174 193 LINE",
 "367 0 LINE",
 "482 0 LINE",
 "482 53 LINE",
@@ -22668,11 +22667,7 @@ nodes = (
 "100 521 LINE",
 "100 53 LINE",
 "26 53 LINE",
-"26 0 LINE",
-"238 0 LINE",
-"238 53 LINE",
-"174 53 LINE",
-"174 193 LINE"
+"26 0 LINE"
 );
 }
 );
@@ -22699,6 +22694,10 @@ paths = (
 {
 closed = 1;
 nodes = (
+"204 0 LINE",
+"204 22 LINE",
+"132 22 LINE",
+"132 205 LINE",
 "355 0 LINE",
 "457 0 LINE",
 "457 22 LINE",
@@ -22717,11 +22716,7 @@ nodes = (
 "103 551 LINE",
 "103 22 LINE",
 "30 22 LINE",
-"30 0 LINE",
-"204 0 LINE",
-"204 22 LINE",
-"132 22 LINE",
-"132 205 LINE"
+"30 0 LINE"
 );
 }
 );
@@ -22748,6 +22743,13 @@ paths = (
 {
 closed = 1;
 nodes = (
+"313 0 LINE",
+"313 109 LINE",
+"254 109 LINE",
+"254 197 LINE",
+"428 0 LINE",
+"601 0 LINE",
+"601 110 LINE",
 "529 110 LINE",
 "422 219 LINE",
 "514 285 LINE",
@@ -22763,14 +22765,7 @@ nodes = (
 "83 464 LINE",
 "83 109 LINE",
 "21 109 LINE",
-"21 0 LINE",
-"313 0 LINE",
-"313 109 LINE",
-"254 109 LINE",
-"254 197 LINE",
-"428 0 LINE",
-"601 0 LINE",
-"601 110 LINE"
+"21 0 LINE"
 );
 }
 );
@@ -22810,7 +22805,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = kgreenlandic;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -22824,7 +22819,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"399 0 LINE",
 "504 0 LINE",
 "504 53 LINE",
 "433 53 LINE",
@@ -22835,13 +22829,13 @@ nodes = (
 "282 393 LINE",
 "282 340 LINE",
 "350 340 LINE",
-"177 193 LINE"
+"177 193 LINE",
+"399 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"38 0 LINE",
 "241 0 LINE",
 "241 53 LINE",
 "184 53 LINE",
@@ -22850,7 +22844,8 @@ nodes = (
 "39 340 LINE",
 "110 340 LINE",
 "110 53 LINE",
-"38 53 LINE"
+"38 53 LINE",
+"38 0 LINE"
 );
 }
 );
@@ -22862,7 +22857,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"342 0 LINE",
 "440 0 LINE",
 "440 22 LINE",
 "357 22 LINE",
@@ -22873,13 +22867,13 @@ nodes = (
 "259 393 LINE",
 "259 371 LINE",
 "332 371 LINE",
-"145 201 LINE"
+"145 201 LINE",
+"342 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"36 0 LINE",
 "200 0 LINE",
 "200 22 LINE",
 "133 22 LINE",
@@ -22888,7 +22882,8 @@ nodes = (
 "39 371 LINE",
 "104 371 LINE",
 "104 22 LINE",
-"36 22 LINE"
+"36 22 LINE",
+"36 0 LINE"
 );
 }
 );
@@ -22900,7 +22895,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"72 0 LINE",
 "377 0 LINE",
 "377 110 LINE",
 "315 110 LINE",
@@ -22924,7 +22918,8 @@ nodes = (
 "70 285 LINE",
 "143 285 LINE",
 "143 110 LINE",
-"72 110 LINE"
+"72 110 LINE",
+"72 0 LINE"
 );
 }
 );
@@ -22955,7 +22950,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = l;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:13:17 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -22979,7 +22974,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"27 0 LINE",
 "238 0 LINE",
 "238 53 LINE",
 "174 53 LINE",
@@ -22988,7 +22982,8 @@ nodes = (
 "29 521 LINE",
 "100 521 LINE",
 "100 53 LINE",
-"27 53 LINE"
+"27 53 LINE",
+"27 0 LINE"
 );
 }
 );
@@ -23010,7 +23005,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"28 0 LINE",
 "202 0 LINE",
 "202 22 LINE",
 "129 22 LINE",
@@ -23019,7 +23013,8 @@ nodes = (
 "31 551 LINE",
 "101 551 LINE",
 "101 22 LINE",
-"28 22 LINE"
+"28 22 LINE",
+"28 0 LINE"
 );
 }
 );
@@ -23032,14 +23027,6 @@ name = bot;
 position = "{176, 0}";
 },
 {
-name = caron.alt;
-position = "{218, 457}";
-},
-{
-name = mid;
-position = "{141, 322}";
-},
-{
 name = top;
 position = "{165, 563}";
 }
@@ -23049,8 +23036,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"25 109 LINE",
-"25 0 LINE",
 "317 0 LINE",
 "317 109 LINE",
 "258 109 LINE",
@@ -23058,7 +23043,9 @@ nodes = (
 "25 573 LINE",
 "25 464 LINE",
 "86 464 LINE",
-"86 109 LINE"
+"86 109 LINE",
+"25 109 LINE",
+"25 0 LINE"
 );
 }
 );
@@ -23305,7 +23292,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = lslash;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -23324,10 +23311,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"24 192 LINE",
 "246 307 LINE",
 "246 371 LINE",
-"24 253 LINE"
+"24 253 LINE",
+"24 192 LINE"
 );
 }
 );
@@ -23344,10 +23331,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"25 220 LINE",
 "200 328 LINE",
 "200 357 LINE",
-"25 248 LINE"
+"25 248 LINE",
+"25 220 LINE"
 );
 }
 );
@@ -23364,10 +23351,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"3 182 LINE",
 "313 352 LINE",
 "313 482 LINE",
-"3 309 LINE"
+"3 309 LINE",
+"3 182 LINE"
 );
 }
 );
@@ -23398,7 +23385,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = m;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -23418,7 +23405,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"22 0 LINE",
 "242 0 LINE",
 "242 53 LINE",
 "171 53 LINE",
@@ -23469,7 +23455,8 @@ nodes = (
 "22 340 LINE",
 "98 340 LINE",
 "98 53 LINE",
-"22 53 LINE"
+"22 53 LINE",
+"22 0 LINE"
 );
 }
 );
@@ -23487,7 +23474,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"18 0 LINE",
 "217 0 LINE",
 "217 22 LINE",
 "133 22 LINE",
@@ -23538,7 +23524,8 @@ nodes = (
 "19 371 LINE",
 "104 371 LINE",
 "104 22 LINE",
-"18 22 LINE"
+"18 22 LINE",
+"18 0 LINE"
 );
 }
 );
@@ -23556,27 +23543,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"918 109 LINE",
-"918 230 LINE SMOOTH",
-"920 351 OFFCURVE",
-"854 403 OFFCURVE",
-"769 403 CURVE SMOOTH",
-"697 403 OFFCURVE",
-"634 376 OFFCURVE",
-"571 313 CURVE",
-"549 375 OFFCURVE",
-"497 403 OFFCURVE",
-"434 403 CURVE SMOOTH",
-"373 403 OFFCURVE",
-"318 383 OFFCURVE",
-"264 338 CURVE",
-"264 393 LINE",
-"26 393 LINE",
-"26 283 LINE",
-"81 283 LINE",
-"81 109 LINE",
-"21 109 LINE",
-"21 0 LINE",
 "315 0 LINE",
 "315 109 LINE",
 "264 109 LINE",
@@ -23607,7 +23573,28 @@ nodes = (
 "686 109 LINE",
 "686 0 LINE",
 "987 0 LINE",
-"987 109 LINE"
+"987 109 LINE",
+"918 109 LINE",
+"918 230 LINE SMOOTH",
+"920 351 OFFCURVE",
+"854 403 OFFCURVE",
+"769 403 CURVE SMOOTH",
+"697 403 OFFCURVE",
+"634 376 OFFCURVE",
+"571 313 CURVE",
+"549 375 OFFCURVE",
+"497 403 OFFCURVE",
+"434 403 CURVE SMOOTH",
+"373 403 OFFCURVE",
+"318 383 OFFCURVE",
+"264 338 CURVE",
+"264 393 LINE",
+"26 393 LINE",
+"26 283 LINE",
+"81 283 LINE",
+"81 109 LINE",
+"21 109 LINE",
+"21 0 LINE"
 );
 }
 );
@@ -23638,7 +23625,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = n;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -23662,7 +23649,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"22 0 LINE",
 "242 0 LINE",
 "242 53 LINE",
 "171 53 LINE",
@@ -23691,7 +23677,8 @@ nodes = (
 "22 340 LINE",
 "98 340 LINE",
 "98 53 LINE",
-"22 53 LINE"
+"22 53 LINE",
+"22 0 LINE"
 );
 }
 );
@@ -23713,7 +23700,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"18 0 LINE",
 "217 0 LINE",
 "217 22 LINE",
 "133 22 LINE",
@@ -23742,7 +23728,8 @@ nodes = (
 "19 371 LINE",
 "104 371 LINE",
 "104 22 LINE",
-"18 22 LINE"
+"18 22 LINE",
+"18 0 LINE"
 );
 }
 );
@@ -23764,21 +23751,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"558 109 LINE",
-"558 230 LINE SMOOTH",
-"560 351 OFFCURVE",
-"499 403 OFFCURVE",
-"418 403 CURVE SMOOTH",
-"357 403 OFFCURVE",
-"302 380 OFFCURVE",
-"249 329 CURVE",
-"249 393 LINE",
-"26 393 LINE",
-"26 283 LINE",
-"77 283 LINE",
-"77 109 LINE",
-"21 109 LINE",
-"21 0 LINE",
 "296 0 LINE",
 "296 109 LINE",
 "249 109 LINE",
@@ -23793,7 +23765,22 @@ nodes = (
 "340 109 LINE",
 "340 0 LINE",
 "622 0 LINE",
-"622 109 LINE"
+"622 109 LINE",
+"558 109 LINE",
+"558 230 LINE SMOOTH",
+"560 351 OFFCURVE",
+"499 403 OFFCURVE",
+"418 403 CURVE SMOOTH",
+"357 403 OFFCURVE",
+"302 380 OFFCURVE",
+"249 329 CURVE",
+"249 393 LINE",
+"26 393 LINE",
+"26 283 LINE",
+"77 283 LINE",
+"77 109 LINE",
+"21 109 LINE",
+"21 0 LINE"
 );
 }
 );
@@ -24018,7 +24005,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = eng;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -24026,7 +24013,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"235 -159 LINE",
 "351 -159 OFFCURVE",
 "442 -114 OFFCURVE",
 "442 14 CURVE SMOOTH",
@@ -24057,7 +24043,8 @@ nodes = (
 "369 9 LINE SMOOTH",
 "369 -70 OFFCURVE",
 "329 -106 OFFCURVE",
-"235 -106 CURVE"
+"235 -106 CURVE",
+"235 -159 LINE"
 );
 }
 );
@@ -24069,7 +24056,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"234 -179 LINE",
 "348 -179 OFFCURVE",
 "419 -125 OFFCURVE",
 "419 -5 CURVE SMOOTH",
@@ -24100,7 +24086,8 @@ nodes = (
 "390 -12 LINE SMOOTH",
 "390 -102 OFFCURVE",
 "341 -157 OFFCURVE",
-"235 -157 CURVE"
+"235 -157 CURVE",
+"234 -179 LINE"
 );
 }
 );
@@ -24112,6 +24099,15 @@ paths = (
 {
 closed = 1;
 nodes = (
+"439 -172 OFFCURVE",
+"559 -125 OFFCURVE",
+"559 76 CURVE SMOOTH",
+"559 230 LINE SMOOTH",
+"559 351 OFFCURVE",
+"500 403 OFFCURVE",
+"419 403 CURVE SMOOTH",
+"356 403 OFFCURVE",
+"301 379 OFFCURVE",
 "246 326 CURVE",
 "246 393 LINE",
 "24 393 LINE",
@@ -24134,16 +24130,7 @@ nodes = (
 "387 -19 OFFCURVE",
 "363 -51 OFFCURVE",
 "305 -51 CURVE",
-"303 -172 LINE",
-"439 -172 OFFCURVE",
-"559 -125 OFFCURVE",
-"559 76 CURVE SMOOTH",
-"559 230 LINE SMOOTH",
-"559 351 OFFCURVE",
-"500 403 OFFCURVE",
-"419 403 CURVE SMOOTH",
-"356 403 OFFCURVE",
-"301 379 OFFCURVE"
+"303 -172 LINE"
 );
 }
 );
@@ -24230,7 +24217,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = o;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:13:32 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -24250,7 +24237,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"237 -11 CURVE SMOOTH",
 "363 -11 OFFCURVE",
 "452 76 OFFCURVE",
 "452 198 CURVE SMOOTH",
@@ -24261,13 +24247,13 @@ nodes = (
 "25 318 OFFCURVE",
 "25 198 CURVE SMOOTH",
 "25 75 OFFCURVE",
-"113 -11 OFFCURVE"
+"113 -11 OFFCURVE",
+"237 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"238 47 CURVE SMOOTH",
 "158 47 OFFCURVE",
 "101 109 OFFCURVE",
 "101 197 CURVE SMOOTH",
@@ -24278,7 +24264,8 @@ nodes = (
 "375 284 OFFCURVE",
 "375 198 CURVE SMOOTH",
 "375 110 OFFCURVE",
-"318 47 OFFCURVE"
+"318 47 OFFCURVE",
+"238 47 CURVE SMOOTH"
 );
 }
 );
@@ -24296,7 +24283,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"239 -11 CURVE SMOOTH",
 "363 -11 OFFCURVE",
 "451 76 OFFCURVE",
 "451 199 CURVE SMOOTH",
@@ -24307,13 +24293,13 @@ nodes = (
 "30 318 OFFCURVE",
 "30 199 CURVE SMOOTH",
 "30 76 OFFCURVE",
-"117 -11 OFFCURVE"
+"117 -11 OFFCURVE",
+"239 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"239 12 CURVE SMOOTH",
 "133 12 OFFCURVE",
 "59 89 OFFCURVE",
 "59 199 CURVE SMOOTH",
@@ -24324,7 +24310,8 @@ nodes = (
 "422 306 OFFCURVE",
 "422 199 CURVE SMOOTH",
 "422 89 OFFCURVE",
-"346 12 OFFCURVE"
+"346 12 OFFCURVE",
+"239 12 CURVE SMOOTH"
 );
 }
 );
@@ -24332,10 +24319,6 @@ width = 481;
 },
 {
 anchors = (
-{
-name = ogonek;
-position = "{271, 0}";
-},
 {
 name = top;
 position = "{251, 405}";
@@ -24346,7 +24329,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"262 -11 CURVE SMOOTH",
 "407 -11 OFFCURVE",
 "502 75 OFFCURVE",
 "502 204 CURVE SMOOTH",
@@ -24357,13 +24339,13 @@ nodes = (
 "21 324 OFFCURVE",
 "21 204 CURVE SMOOTH",
 "21 75 OFFCURVE",
-"117 -11 OFFCURVE"
+"117 -11 OFFCURVE",
+"262 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"262 98 CURVE SMOOTH",
 "222 97 OFFCURVE",
 "195 138 OFFCURVE",
 "195 204 CURVE SMOOTH",
@@ -24374,7 +24356,8 @@ nodes = (
 "329 259 OFFCURVE",
 "329 204 CURVE SMOOTH",
 "329 138 OFFCURVE",
-"303 97 OFFCURVE"
+"303 97 OFFCURVE",
+"262 98 CURVE SMOOTH"
 );
 }
 );
@@ -24909,7 +24892,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = oslash;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -24928,10 +24911,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"122 -63 LINE",
 "394 436 LINE",
 "359 453 LINE",
-"87 -45 LINE"
+"87 -45 LINE",
+"122 -63 LINE"
 );
 }
 );
@@ -24948,10 +24931,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"96 -70 LINE",
 "408 438 LINE",
 "395 448 LINE",
-"83 -61 LINE"
+"83 -61 LINE",
+"96 -70 LINE"
 );
 }
 );
@@ -24968,10 +24951,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"164 -58 LINE",
 "416 435 LINE",
 "370 456 LINE",
-"118 -37 LINE"
+"118 -37 LINE",
+"164 -58 LINE"
 );
 }
 );
@@ -25124,7 +25107,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = oe;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -25138,7 +25121,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"250 -11 CURVE SMOOTH",
 "328 -11 OFFCURVE",
 "390 27 OFFCURVE",
 "424 86 CURVE",
@@ -25169,13 +25151,13 @@ nodes = (
 "41 316 OFFCURVE",
 "41 196 CURVE SMOOTH",
 "41 76 OFFCURVE",
-"125 -11 OFFCURVE"
+"125 -11 OFFCURVE",
+"250 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"250 45 CURVE SMOOTH",
 "167 45 OFFCURVE",
 "113 107 OFFCURVE",
 "113 196 CURVE SMOOTH",
@@ -25186,19 +25168,20 @@ nodes = (
 "387 284 OFFCURVE",
 "387 196 CURVE SMOOTH",
 "387 107 OFFCURVE",
-"333 45 OFFCURVE"
+"333 45 OFFCURVE",
+"250 45 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"461 224 LINE",
 "470 300 OFFCURVE",
 "520 349 OFFCURVE",
 "597 349 CURVE SMOOTH",
 "667 349 OFFCURVE",
 "710 302 OFFCURVE",
-"719 224 CURVE"
+"719 224 CURVE",
+"461 224 LINE"
 );
 }
 );
@@ -25210,7 +25193,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"241 -11 CURVE SMOOTH",
 "336 -11 OFFCURVE",
 "410 42 OFFCURVE",
 "438 123 CURVE",
@@ -25241,13 +25223,13 @@ nodes = (
 "32 318 OFFCURVE",
 "32 198 CURVE SMOOTH",
 "32 76 OFFCURVE",
-"118 -11 OFFCURVE"
+"118 -11 OFFCURVE",
+"241 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"241 11 CURVE SMOOTH",
 "135 11 OFFCURVE",
 "60 89 OFFCURVE",
 "60 198 CURVE SMOOTH",
@@ -25258,19 +25240,20 @@ nodes = (
 "424 306 OFFCURVE",
 "424 199 CURVE SMOOTH",
 "424 89 OFFCURVE",
-"349 11 OFFCURVE"
+"349 11 OFFCURVE",
+"241 11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"453 209 LINE",
 "457 314 OFFCURVE",
 "531 381 OFFCURVE",
 "623 381 CURVE SMOOTH",
 "705 381 OFFCURVE",
 "777 327 OFFCURVE",
-"788 209 CURVE"
+"788 209 CURVE",
+"453 209 LINE"
 );
 }
 );
@@ -25282,7 +25265,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"247 -11 CURVE SMOOTH",
 "340 -11 OFFCURVE",
 "384 31 OFFCURVE",
 "401 61 CURVE",
@@ -25313,13 +25295,13 @@ nodes = (
 "17 325 OFFCURVE",
 "17 205 CURVE SMOOTH",
 "17 74 OFFCURVE",
-"102 -11 OFFCURVE"
+"102 -11 OFFCURVE",
+"247 -11 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"252 99 CURVE SMOOTH",
 "212 97 OFFCURVE",
 "185 139 OFFCURVE",
 "185 204 CURVE SMOOTH",
@@ -25330,19 +25312,20 @@ nodes = (
 "319 259 OFFCURVE",
 "319 204 CURVE SMOOTH",
 "319 139 OFFCURVE",
-"292 97 OFFCURVE"
+"292 97 OFFCURVE",
+"252 99 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"498 250 LINE",
 "505 292 OFFCURVE",
 "525 315 OFFCURVE",
 "550 315 CURVE SMOOTH",
 "583 315 OFFCURVE",
 "604 292 OFFCURVE",
-"601 250 CURVE"
+"601 250 CURVE",
+"498 250 LINE"
 );
 }
 );
@@ -25373,7 +25356,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = p;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:13:58 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -25393,6 +25376,12 @@ paths = (
 {
 closed = 1;
 nodes = (
+"240 -156 LINE",
+"240 -103 LINE",
+"163 -103 LINE",
+"164 30 LINE",
+"190 7 OFFCURVE",
+"234 -10 OFFCURVE",
 "282 -10 CURVE SMOOTH",
 "390 -10 OFFCURVE",
 "485 67 OFFCURVE",
@@ -25409,18 +25398,15 @@ nodes = (
 "90 340 LINE",
 "90 -103 LINE",
 "19 -103 LINE",
-"19 -156 LINE",
-"240 -156 LINE",
-"240 -103 LINE",
-"163 -103 LINE",
-"164 30 LINE",
-"190 7 OFFCURVE",
-"234 -10 OFFCURVE"
+"19 -156 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"233 45 OFFCURVE",
+"195 59 OFFCURVE",
+"164 83 CURVE",
 "163 306 LINE",
 "198 334 OFFCURVE",
 "245 346 OFFCURVE",
@@ -25430,10 +25416,7 @@ nodes = (
 "408 196 CURVE SMOOTH",
 "408 97 OFFCURVE",
 "348 45 OFFCURVE",
-"269 45 CURVE SMOOTH",
-"233 45 OFFCURVE",
-"195 59 OFFCURVE",
-"164 83 CURVE"
+"269 45 CURVE SMOOTH"
 );
 }
 );
@@ -25451,6 +25434,12 @@ paths = (
 {
 closed = 1;
 nodes = (
+"195 -154 LINE",
+"195 -133 LINE",
+"127 -133 LINE",
+"128 46 LINE",
+"165 11 OFFCURVE",
+"218 -11 OFFCURVE",
 "269 -11 CURVE SMOOTH",
 "395 -11 OFFCURVE",
 "477 70 OFFCURVE",
@@ -25467,18 +25456,15 @@ nodes = (
 "99 371 LINE",
 "99 -133 LINE",
 "30 -133 LINE",
-"30 -154 LINE",
-"195 -154 LINE",
-"195 -133 LINE",
-"127 -133 LINE",
-"128 46 LINE",
-"165 11 OFFCURVE",
-"218 -11 OFFCURVE"
+"30 -154 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"218 11 OFFCURVE",
+"167 34 OFFCURVE",
+"128 71 CURVE",
 "128 326 LINE",
 "173 360 OFFCURVE",
 "229 381 OFFCURVE",
@@ -25488,10 +25474,7 @@ nodes = (
 "448 195 CURVE SMOOTH",
 "448 82 OFFCURVE",
 "377 11 OFFCURVE",
-"267 11 CURVE SMOOTH",
-"218 11 OFFCURVE",
-"167 34 OFFCURVE",
-"128 71 CURVE"
+"267 11 CURVE SMOOTH"
 );
 }
 );
@@ -25509,14 +25492,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"250 373 CURVE",
-"249 393 LINE",
-"5 393 LINE",
-"5 283 LINE",
-"77 283 LINE",
-"77 -90 LINE",
-"5 -90 LINE",
-"5 -199 LINE",
 "337 -199 LINE",
 "337 -90 LINE",
 "249 -90 LINE",
@@ -25531,15 +25506,25 @@ nodes = (
 "489 403 OFFCURVE",
 "359 403 CURVE SMOOTH",
 "323 403 OFFCURVE",
-"286 392 OFFCURVE"
+"286 392 OFFCURVE",
+"250 373 CURVE",
+"249 393 LINE",
+"5 393 LINE",
+"5 283 LINE",
+"77 283 LINE",
+"77 -90 LINE",
+"5 -90 LINE",
+"5 -199 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"249 83 CURVE",
-"250 296 LINE",
-"260 295 OFFCURVE",
+"260 85 OFFCURVE",
+"255 85 OFFCURVE",
+"249 86 CURVE",
+"250 293 LINE",
+"260 294 OFFCURVE",
 "268 294 OFFCURVE",
 "277 294 CURVE SMOOTH",
 "361 294 OFFCURVE",
@@ -25547,9 +25532,7 @@ nodes = (
 "374 195 CURVE SMOOTH",
 "374 128 OFFCURVE",
 "328 85 OFFCURVE",
-"264 85 CURVE SMOOTH",
-"260 85 OFFCURVE",
-"255 84 OFFCURVE"
+"264 85 CURVE SMOOTH"
 );
 }
 );
@@ -25580,7 +25563,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = thorn;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -25594,7 +25577,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"20 -159 LINE",
 "233 -159 LINE",
 "233 -105 LINE",
 "163 -105 LINE",
@@ -25616,13 +25598,13 @@ nodes = (
 "16 509 LINE",
 "88 509 LINE",
 "88 -105 LINE",
-"20 -105 LINE"
+"20 -105 LINE",
+"20 -159 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"288 52 CURVE SMOOTH",
 "246 52 OFFCURVE",
 "199 71 OFFCURVE",
 "163 106 CURVE",
@@ -25634,7 +25616,8 @@ nodes = (
 "427 299 OFFCURVE",
 "427 203 CURVE SMOOTH",
 "427 104 OFFCURVE",
-"367 52 OFFCURVE"
+"367 52 OFFCURVE",
+"288 52 CURVE SMOOTH"
 );
 }
 );
@@ -25646,7 +25629,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"28 -155 LINE",
 "191 -155 LINE",
 "191 -133 LINE",
 "125 -133 LINE",
@@ -25668,13 +25650,13 @@ nodes = (
 "21 539 LINE",
 "96 539 LINE",
 "96 -133 LINE",
-"28 -133 LINE"
+"28 -133 LINE",
+"28 -155 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"268 13 CURVE SMOOTH",
 "218 13 OFFCURVE",
 "164 35 OFFCURVE",
 "125 74 CURVE",
@@ -25686,7 +25668,8 @@ nodes = (
 "448 311 OFFCURVE",
 "448 196 CURVE SMOOTH",
 "448 83 OFFCURVE",
-"378 13 OFFCURVE"
+"378 13 OFFCURVE",
+"268 13 CURVE SMOOTH"
 );
 }
 );
@@ -25698,14 +25681,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"267 375 CURVE",
-"267 561 LINE",
-"17 561 LINE",
-"17 453 LINE",
-"95 453 LINE",
-"95 -89 LINE",
-"24 -89 LINE",
-"24 -197 LINE",
 "267 -197 LINE",
 "267 10 LINE",
 "300 -5 OFFCURVE",
@@ -25718,13 +25693,20 @@ nodes = (
 "501 401 OFFCURVE",
 "372 401 CURVE SMOOTH",
 "338 401 OFFCURVE",
-"303 391 OFFCURVE"
+"303 391 OFFCURVE",
+"267 375 CURVE",
+"267 561 LINE",
+"17 561 LINE",
+"17 453 LINE",
+"95 453 LINE",
+"95 -89 LINE",
+"24 -89 LINE",
+"24 -197 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"267 77 CURVE",
 "267 298 LINE",
 "276 294 OFFCURVE",
 "282 292 OFFCURVE",
@@ -25736,7 +25718,8 @@ nodes = (
 "341 83 OFFCURVE",
 "277 83 CURVE SMOOTH",
 "274 83 OFFCURVE",
-"272 81 OFFCURVE"
+"272 81 OFFCURVE",
+"267 77 CURVE"
 );
 }
 );
@@ -25767,7 +25750,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = q;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -25781,7 +25764,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"288 -161 LINE",
 "509 -161 LINE",
 "509 -105 LINE",
 "439 -105 LINE",
@@ -25803,17 +25785,13 @@ nodes = (
 "325 6 OFFCURVE",
 "365 37 CURVE",
 "365 -105 LINE",
-"288 -105 LINE"
+"288 -105 LINE",
+"288 -161 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"365 302 CURVE",
-"365 88 LINE",
-"328 61 OFFCURVE",
-"284 45 OFFCURVE",
-"244 45 CURVE SMOOTH",
 "166 45 OFFCURVE",
 "104 97 OFFCURVE",
 "104 191 CURVE SMOOTH",
@@ -25821,7 +25799,12 @@ nodes = (
 "160 347 OFFCURVE",
 "235 347 CURVE SMOOTH",
 "277 347 OFFCURVE",
-"324 331 OFFCURVE"
+"324 331 OFFCURVE",
+"365 302 CURVE",
+"365 88 LINE",
+"328 61 OFFCURVE",
+"284 45 OFFCURVE",
+"244 45 CURVE SMOOTH"
 );
 }
 );
@@ -25833,7 +25816,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"316 -161 LINE",
 "481 -161 LINE",
 "481 -139 LINE",
 "413 -139 LINE",
@@ -25855,17 +25837,13 @@ nodes = (
 "344 11 OFFCURVE",
 "384 44 CURVE",
 "384 -139 LINE",
-"316 -139 LINE"
+"316 -139 LINE",
+"316 -161 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"384 327 CURVE",
-"384 67 LINE",
-"344 34 OFFCURVE",
-"288 12 OFFCURVE",
-"240 12 CURVE SMOOTH",
 "135 12 OFFCURVE",
 "59 86 OFFCURVE",
 "59 193 CURVE SMOOTH",
@@ -25873,7 +25851,12 @@ nodes = (
 "129 381 OFFCURVE",
 "228 381 CURVE SMOOTH",
 "280 381 OFFCURVE",
-"341 359 OFFCURVE"
+"341 359 OFFCURVE",
+"384 327 CURVE",
+"384 67 LINE",
+"344 34 OFFCURVE",
+"288 12 OFFCURVE",
+"240 12 CURVE SMOOTH"
 );
 }
 );
@@ -25885,7 +25868,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"251 -200 LINE",
 "571 -200 LINE",
 "571 -92 LINE",
 "508 -92 LINE",
@@ -25907,13 +25889,13 @@ nodes = (
 "311 -1 OFFCURVE",
 "336 15 CURVE",
 "336 -92 LINE",
-"251 -92 LINE"
+"251 -92 LINE",
+"251 -200 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"286 99 CURVE SMOOTH",
 "234 99 OFFCURVE",
 "201 141 OFFCURVE",
 "201 199 CURVE SMOOTH",
@@ -25925,7 +25907,8 @@ nodes = (
 "336 292 CURVE",
 "336 104 LINE",
 "316 101 OFFCURVE",
-"299 99 OFFCURVE"
+"299 99 OFFCURVE",
+"286 99 CURVE SMOOTH"
 );
 }
 );
@@ -25956,7 +25939,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = r;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -26001,7 +25984,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"35 0 LINE",
 "254 0 LINE",
 "254 53 LINE",
 "184 53 LINE",
@@ -26024,7 +26006,8 @@ nodes = (
 "35 340 LINE",
 "111 340 LINE",
 "111 53 LINE",
-"35 53 LINE"
+"35 53 LINE",
+"35 0 LINE"
 );
 }
 );
@@ -26046,7 +26029,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"55 0 LINE",
 "254 0 LINE",
 "254 22 LINE",
 "171 22 LINE",
@@ -26069,7 +26051,8 @@ nodes = (
 "57 371 LINE",
 "142 371 LINE",
 "142 22 LINE",
-"55 22 LINE"
+"55 22 LINE",
+"55 0 LINE"
 );
 }
 );
@@ -26091,14 +26074,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"250 307 CURVE",
-"250 393 LINE",
-"27 393 LINE",
-"27 283 LINE",
-"78 283 LINE",
-"78 109 LINE",
-"22 109 LINE",
-"22 0 LINE",
 "297 0 LINE",
 "297 109 LINE",
 "250 109 LINE",
@@ -26114,7 +26089,15 @@ nodes = (
 "392 397 OFFCURVE",
 "363 397 CURVE SMOOTH",
 "326 397 OFFCURVE",
-"283 378 OFFCURVE"
+"283 378 OFFCURVE",
+"250 307 CURVE",
+"250 393 LINE",
+"27 393 LINE",
+"27 283 LINE",
+"78 283 LINE",
+"78 109 LINE",
+"22 109 LINE",
+"22 0 LINE"
 );
 }
 );
@@ -26369,7 +26352,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = s;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -26393,7 +26376,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"244 -10 CURVE SMOOTH",
 "320 -10 OFFCURVE",
 "394 25 OFFCURVE",
 "394 104 CURVE SMOOTH",
@@ -26440,7 +26422,8 @@ nodes = (
 "118 0 LINE",
 "118 34 LINE",
 "145 7 OFFCURVE",
-"193 -10 OFFCURVE"
+"193 -10 OFFCURVE",
+"244 -10 CURVE SMOOTH"
 );
 }
 );
@@ -26462,7 +26445,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"235 -11 CURVE SMOOTH",
 "313 -11 OFFCURVE",
 "390 22 OFFCURVE",
 "390 96 CURVE SMOOTH",
@@ -26509,7 +26491,8 @@ nodes = (
 "96 0 LINE",
 "96 40 LINE",
 "120 12 OFFCURVE",
-"175 -11 OFFCURVE"
+"175 -11 OFFCURVE",
+"235 -11 CURVE SMOOTH"
 );
 }
 );
@@ -26531,7 +26514,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"274 -11 CURVE SMOOTH",
 "340 -11 OFFCURVE",
 "422 10 OFFCURVE",
 "421 119 CURVE SMOOTH",
@@ -26578,7 +26560,8 @@ nodes = (
 "135 0 LINE",
 "135 42 LINE",
 "148 10 OFFCURVE",
-"223 -11 OFFCURVE"
+"223 -11 OFFCURVE",
+"274 -11 CURVE SMOOTH"
 );
 }
 );
@@ -26897,7 +26880,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = germandbls;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -26911,7 +26894,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"31 0 LINE",
 "243 0 LINE",
 "243 54 LINE",
 "185 54 LINE",
@@ -26949,7 +26931,8 @@ nodes = (
 "105 533 OFFCURVE",
 "105 410 CURVE SMOOTH",
 "105 54 LINE",
-"31 54 LINE"
+"31 54 LINE",
+"31 0 LINE"
 );
 }
 );
@@ -26961,7 +26944,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"50 0 LINE",
 "215 0 LINE",
 "215 24 LINE",
 "156 24 LINE",
@@ -26999,7 +26981,8 @@ nodes = (
 "125 549 OFFCURVE",
 "125 426 CURVE SMOOTH",
 "125 24 LINE",
-"50 24 LINE"
+"50 24 LINE",
+"50 0 LINE"
 );
 }
 );
@@ -27011,7 +26994,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"24 0 LINE",
 "292 0 LINE",
 "292 109 LINE",
 "249 109 LINE",
@@ -27049,7 +27031,8 @@ nodes = (
 "79 600 OFFCURVE",
 "79 453 CURVE SMOOTH",
 "79 109 LINE",
-"24 109 LINE"
+"24 109 LINE",
+"24 0 LINE"
 );
 }
 );
@@ -27126,7 +27109,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = t;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:14:22 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -27150,7 +27133,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"199 0 CURVE SMOOTH",
 "272 0 LINE",
 "272 53 LINE",
 "212 53 LINE SMOOTH",
@@ -27169,7 +27151,8 @@ nodes = (
 "85 340 LINE",
 "85 116 LINE SMOOTH",
 "85 37 OFFCURVE",
-"124 0 OFFCURVE"
+"124 0 OFFCURVE",
+"199 0 CURVE SMOOTH"
 );
 }
 );
@@ -27191,7 +27174,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"216 0 CURVE SMOOTH",
 "257 0 LINE",
 "257 22 LINE",
 "218 22 LINE SMOOTH",
@@ -27210,7 +27192,8 @@ nodes = (
 "94 371 LINE",
 "94 107 LINE SMOOTH",
 "94 24 OFFCURVE",
-"145 0 OFFCURVE"
+"145 0 OFFCURVE",
+"216 0 CURVE SMOOTH"
 );
 }
 );
@@ -27227,10 +27210,6 @@ name = caron.alt;
 position = "{185, 541}";
 },
 {
-name = mid;
-position = "{156, 220}";
-},
-{
 name = top;
 position = "{159, 518}";
 }
@@ -27240,7 +27219,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"199 0 CURVE SMOOTH",
 "343 0 LINE",
 "343 109 LINE",
 "266 109 LINE SMOOTH",
@@ -27259,7 +27237,8 @@ nodes = (
 "68 283 LINE",
 "68 120 LINE SMOOTH",
 "68 36 OFFCURVE",
-"116 0 OFFCURVE"
+"116 0 OFFCURVE",
+"199 0 CURVE SMOOTH"
 );
 }
 );
@@ -27412,7 +27391,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = u;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -27432,7 +27411,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"208 -10 CURVE SMOOTH",
 "259 -10 OFFCURVE",
 "308 12 OFFCURVE",
 "353 48 CURVE",
@@ -27457,7 +27435,8 @@ nodes = (
 "77 340 LINE",
 "77 122 LINE SMOOTH",
 "77 50 OFFCURVE",
-"115 -10 OFFCURVE"
+"115 -10 OFFCURVE",
+"208 -10 CURVE SMOOTH"
 );
 }
 );
@@ -27475,7 +27454,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"215 -11 CURVE SMOOTH",
 "276 -11 OFFCURVE",
 "329 14 OFFCURVE",
 "379 49 CURVE",
@@ -27500,7 +27478,8 @@ nodes = (
 "94 371 LINE",
 "94 103 LINE SMOOTH",
 "94 62 OFFCURVE",
-"116 -11 OFFCURVE"
+"116 -11 OFFCURVE",
+"215 -11 CURVE SMOOTH"
 );
 }
 );
@@ -27522,7 +27501,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"216 -11 CURVE SMOOTH",
 "286 -11 OFFCURVE",
 "329 10 OFFCURVE",
 "367 41 CURVE",
@@ -27547,7 +27525,8 @@ nodes = (
 "63 283 LINE",
 "63 144 LINE SMOOTH",
 "63 68 OFFCURVE",
-"94 -11 OFFCURVE"
+"94 -11 OFFCURVE",
+"216 -11 CURVE SMOOTH"
 );
 }
 );
@@ -31187,7 +31166,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = v;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -31201,7 +31180,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"224 0 LINE",
 "291 0 LINE",
 "444 340 LINE",
 "507 340 LINE",
@@ -31215,7 +31193,8 @@ nodes = (
 "217 393 LINE",
 "7 393 LINE",
 "7 340 LINE",
-"74 340 LINE"
+"74 340 LINE",
+"224 0 LINE"
 );
 }
 );
@@ -31227,7 +31206,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"243 0 LINE",
 "276 0 LINE",
 "437 371 LINE",
 "506 371 LINE",
@@ -31241,7 +31219,8 @@ nodes = (
 "194 393 LINE",
 "8 393 LINE",
 "8 371 LINE",
-"80 371 LINE"
+"80 371 LINE",
+"243 0 LINE"
 );
 }
 );
@@ -31253,8 +31232,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"77 283 LINE",
-"229 0 LINE",
 "379 0 LINE",
 "527 283 LINE",
 "584 283 LINE",
@@ -31267,7 +31244,9 @@ nodes = (
 "302 283 LINE",
 "302 393 LINE",
 "18 393 LINE",
-"18 283 LINE"
+"18 283 LINE",
+"77 283 LINE",
+"229 0 LINE"
 );
 }
 );
@@ -31298,7 +31277,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = w;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -31318,7 +31297,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"185 0 LINE",
 "257 0 LINE",
 "358 279 LINE",
 "459 0 LINE",
@@ -31342,7 +31320,8 @@ nodes = (
 "187 393 LINE",
 "9 393 LINE",
 "9 340 LINE",
-"61 340 LINE"
+"61 340 LINE",
+"185 0 LINE"
 );
 }
 );
@@ -31360,7 +31339,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"215 0 LINE",
 "250 0 LINE",
 "379 346 LINE",
 "508 0 LINE",
@@ -31384,7 +31362,8 @@ nodes = (
 "186 393 LINE",
 "16 393 LINE",
 "16 371 LINE",
-"81 371 LINE"
+"81 371 LINE",
+"215 0 LINE"
 );
 }
 );
@@ -31402,8 +31381,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"80 283 LINE",
-"181 0 LINE",
 "329 0 LINE",
 "392 167 LINE",
 "460 0 LINE",
@@ -31426,7 +31403,9 @@ nodes = (
 "274 283 LINE",
 "274 393 LINE",
 "23 393 LINE",
-"23 283 LINE"
+"23 283 LINE",
+"80 283 LINE",
+"181 0 LINE"
 );
 }
 );
@@ -31657,7 +31636,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = x;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -31671,7 +31650,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"24 0 LINE",
 "214 0 LINE",
 "214 53 LINE",
 "153 53 LINE",
@@ -31698,7 +31676,8 @@ nodes = (
 "90 340 LINE",
 "214 201 LINE",
 "83 53 LINE",
-"24 53 LINE"
+"24 53 LINE",
+"24 0 LINE"
 );
 }
 );
@@ -31710,7 +31689,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"24 0 LINE",
 "202 0 LINE",
 "202 22 LINE",
 "127 22 LINE",
@@ -31737,7 +31715,8 @@ nodes = (
 "108 371 LINE",
 "249 203 LINE",
 "97 22 LINE",
-"24 22 LINE"
+"24 22 LINE",
+"24 0 LINE"
 );
 }
 );
@@ -31749,8 +31728,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"11 109 LINE",
-"11 0 LINE",
 "214 0 LINE",
 "214 109 LINE",
 "166 109 LINE",
@@ -31776,7 +31753,9 @@ nodes = (
 "15 283 LINE",
 "72 283 LINE",
 "187 192 LINE",
-"64 109 LINE"
+"64 109 LINE",
+"11 109 LINE",
+"11 0 LINE"
 );
 }
 );
@@ -31807,7 +31786,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = y;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -31827,7 +31806,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"101 -159 LINE",
 "152 -159 LINE SMOOTH",
 "254 -159 OFFCURVE",
 "270 -115 OFFCURVE",
@@ -31851,7 +31829,8 @@ nodes = (
 "216 -93 OFFCURVE",
 "197 -99 OFFCURVE",
 "146 -99 CURVE SMOOTH",
-"101 -99 LINE"
+"101 -99 LINE",
+"101 -159 LINE"
 );
 }
 );
@@ -31869,7 +31848,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"115 -122 LINE",
 "155 -122 LINE SMOOTH",
 "224 -122 OFFCURVE",
 "245 -107 OFFCURVE",
@@ -31893,7 +31871,8 @@ nodes = (
 "224 -88 OFFCURVE",
 "213 -96 OFFCURVE",
 "154 -96 CURVE SMOOTH",
-"115 -96 LINE"
+"115 -96 LINE",
+"115 -122 LINE"
 );
 }
 );
@@ -31911,8 +31890,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"105 -50 LINE",
-"105 -172 LINE",
 "169 -172 LINE SMOOTH",
 "252 -172 OFFCURVE",
 "291 -154 OFFCURVE",
@@ -31935,7 +31912,9 @@ nodes = (
 "224 -6 LINE SMOOTH",
 "200 -47 OFFCURVE",
 "175 -50 OFFCURVE",
-"158 -50 CURVE SMOOTH"
+"158 -50 CURVE SMOOTH",
+"105 -50 LINE",
+"105 -172 LINE"
 );
 }
 );
@@ -32210,7 +32189,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = z;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -32230,7 +32209,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"51 0 LINE",
 "396 0 LINE",
 "396 140 LINE",
 "338 140 LINE",
@@ -32243,7 +32221,8 @@ nodes = (
 "112 261 LINE",
 "112 342 LINE",
 "304 342 LINE",
-"51 52 LINE"
+"51 52 LINE",
+"51 0 LINE"
 );
 }
 );
@@ -32261,7 +32240,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"70 0 LINE",
 "386 0 LINE",
 "386 130 LINE",
 "361 130 LINE",
@@ -32274,7 +32252,8 @@ nodes = (
 "109 277 LINE",
 "109 372 LINE",
 "351 372 LINE",
-"70 25 LINE"
+"70 25 LINE",
+"70 0 LINE"
 );
 }
 );
@@ -32292,8 +32271,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"41 97 LINE",
-"41 0 LINE",
 "482 0 LINE",
 "482 182 LINE",
 "371 182 LINE",
@@ -32305,7 +32282,9 @@ nodes = (
 "41 221 LINE",
 "153 221 LINE",
 "153 298 LINE",
-"253 298 LINE"
+"253 298 LINE",
+"41 97 LINE",
+"41 0 LINE"
 );
 }
 );
@@ -32552,7 +32531,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = f_j;
-lastChange = "2016-08-04 13:33:58 +0000";
+lastChange = "2016-08-04 16:10:32 +0000";
 layers = (
 {
 layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -32560,6 +32539,10 @@ paths = (
 {
 closed = 1;
 nodes = (
+"348 -152 LINE SMOOTH",
+"481 -152 OFFCURVE",
+"486 -78 OFFCURVE",
+"486 11 CURVE SMOOTH",
 "486 393 LINE",
 "193 393 LINE",
 "193 446 LINE SMOOTH",
@@ -32601,11 +32584,7 @@ nodes = (
 "403 -94 OFFCURVE",
 "346 -94 CURVE SMOOTH",
 "305 -94 LINE",
-"305 -152 LINE",
-"348 -152 LINE SMOOTH",
-"481 -152 OFFCURVE",
-"486 -78 OFFCURVE",
-"486 11 CURVE SMOOTH"
+"305 -152 LINE"
 );
 }
 );
@@ -32617,6 +32596,10 @@ paths = (
 {
 closed = 1;
 nodes = (
+"345 -122 LINE SMOOTH",
+"447 -122 OFFCURVE",
+"438 -53 OFFCURVE",
+"438 -13 CURVE SMOOTH",
 "438 393 LINE",
 "164 393 LINE",
 "164 462 LINE SMOOTH",
@@ -32658,11 +32641,7 @@ nodes = (
 "409 -101 OFFCURVE",
 "341 -101 CURVE SMOOTH",
 "309 -101 LINE",
-"309 -122 LINE",
-"345 -122 LINE SMOOTH",
-"447 -122 OFFCURVE",
-"438 -53 OFFCURVE",
-"438 -13 CURVE SMOOTH"
+"309 -122 LINE"
 );
 }
 );
@@ -32680,7 +32659,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = uniFB00;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -32688,6 +32667,18 @@ paths = (
 {
 closed = 1;
 nodes = (
+"277 0 LINE",
+"277 53 LINE",
+"193 53 LINE",
+"193 340 LINE",
+"417 340 LINE",
+"417 53 LINE",
+"348 53 LINE",
+"348 0 LINE",
+"582 0 LINE",
+"582 53 LINE",
+"491 53 LINE",
+"491 340 LINE",
 "587 340 LINE",
 "587 393 LINE",
 "491 393 LINE",
@@ -32727,19 +32718,7 @@ nodes = (
 "119 340 LINE",
 "119 53 LINE",
 "44 53 LINE",
-"44 0 LINE",
-"277 0 LINE",
-"277 53 LINE",
-"193 53 LINE",
-"193 340 LINE",
-"417 340 LINE",
-"417 53 LINE",
-"348 53 LINE",
-"348 0 LINE",
-"582 0 LINE",
-"582 53 LINE",
-"491 53 LINE",
-"491 340 LINE"
+"44 0 LINE"
 );
 }
 );
@@ -32751,6 +32730,18 @@ paths = (
 {
 closed = 1;
 nodes = (
+"250 0 LINE",
+"250 22 LINE",
+"158 22 LINE",
+"158 371 LINE",
+"404 371 LINE",
+"404 22 LINE",
+"329 22 LINE",
+"329 0 LINE",
+"526 0 LINE",
+"526 22 LINE",
+"433 22 LINE",
+"433 371 LINE",
 "546 371 LINE",
 "546 393 LINE",
 "433 393 LINE",
@@ -32790,19 +32781,7 @@ nodes = (
 "127 371 LINE",
 "127 22 LINE",
 "54 22 LINE",
-"54 0 LINE",
-"250 0 LINE",
-"250 22 LINE",
-"158 22 LINE",
-"158 371 LINE",
-"404 371 LINE",
-"404 22 LINE",
-"329 22 LINE",
-"329 0 LINE",
-"526 0 LINE",
-"526 22 LINE",
-"433 22 LINE",
-"433 371 LINE"
+"54 0 LINE"
 );
 }
 );
@@ -32814,7 +32793,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"31 0 LINE",
 "420 0 LINE",
 "420 109 LINE",
 "298 109 LINE",
@@ -32865,7 +32843,8 @@ nodes = (
 "31 283 LINE",
 "126 283 LINE",
 "126 109 LINE",
-"31 109 LINE"
+"31 109 LINE",
+"31 0 LINE"
 );
 }
 );
@@ -32879,7 +32858,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = uniFB01;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -32893,7 +32872,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"51 0 LINE",
 "280 0 LINE",
 "280 53 LINE",
 "193 53 LINE",
@@ -32934,7 +32912,8 @@ nodes = (
 "49 340 LINE",
 "119 340 LINE",
 "119 53 LINE",
-"51 53 LINE"
+"51 53 LINE",
+"51 0 LINE"
 );
 }
 );
@@ -32946,7 +32925,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"55 0 LINE",
 "261 0 LINE",
 "261 22 LINE",
 "164 22 LINE",
@@ -32987,7 +32965,8 @@ nodes = (
 "53 371 LINE",
 "135 371 LINE",
 "135 22 LINE",
-"55 22 LINE"
+"55 22 LINE",
+"55 0 LINE"
 );
 }
 );
@@ -32999,7 +32978,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"49 0 LINE",
 "420 0 LINE",
 "420 109 LINE",
 "319 109 LINE",
@@ -33040,7 +33018,8 @@ nodes = (
 "50 283 LINE",
 "147 283 LINE",
 "147 109 LINE",
-"49 109 LINE"
+"49 109 LINE",
+"49 0 LINE"
 );
 }
 );
@@ -33071,7 +33050,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = uniFB02;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -33085,7 +33064,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"51 0 LINE",
 "280 0 LINE",
 "280 53 LINE",
 "193 53 LINE",
@@ -33119,7 +33097,8 @@ nodes = (
 "49 340 LINE",
 "119 340 LINE",
 "119 53 LINE",
-"51 53 LINE"
+"51 53 LINE",
+"51 0 LINE"
 );
 }
 );
@@ -33131,7 +33110,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"55 0 LINE",
 "261 0 LINE",
 "261 22 LINE",
 "164 22 LINE",
@@ -33165,7 +33143,8 @@ nodes = (
 "53 371 LINE",
 "135 371 LINE",
 "135 22 LINE",
-"55 22 LINE"
+"55 22 LINE",
+"55 0 LINE"
 );
 }
 );
@@ -33177,7 +33156,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"29 0 LINE",
 "400 0 LINE",
 "400 109 LINE",
 "298 109 LINE",
@@ -33211,7 +33189,8 @@ nodes = (
 "29 283 LINE",
 "127 283 LINE",
 "127 109 LINE",
-"29 109 LINE"
+"29 109 LINE",
+"29 0 LINE"
 );
 }
 );
@@ -33242,7 +33221,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = uniFB03;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -33262,7 +33241,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"58 0 LINE",
 "295 0 LINE",
 "295 53 LINE",
 "207 53 LINE",
@@ -33289,7 +33267,8 @@ nodes = (
 "56 340 LINE",
 "133 340 LINE",
 "133 53 LINE",
-"58 53 LINE"
+"58 53 LINE",
+"58 0 LINE"
 );
 }
 );
@@ -33307,7 +33286,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"95 0 LINE",
 "292 0 LINE",
 "292 22 LINE",
 "199 22 LINE",
@@ -33334,7 +33312,8 @@ nodes = (
 "93 371 LINE",
 "170 371 LINE",
 "170 22 LINE",
-"95 22 LINE"
+"95 22 LINE",
+"95 0 LINE"
 );
 }
 );
@@ -33352,7 +33331,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"31 0 LINE",
 "358 0 LINE",
 "358 109 LINE",
 "298 109 LINE",
@@ -33379,7 +33357,8 @@ nodes = (
 "31 283 LINE",
 "126 283 LINE",
 "126 109 LINE",
-"31 109 LINE"
+"31 109 LINE",
+"31 0 LINE"
 );
 }
 );
@@ -33409,7 +33388,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = uniFB04;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 components = (
@@ -33423,7 +33402,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"39 0 LINE",
 "292 0 LINE",
 "292 53 LINE",
 "191 53 LINE",
@@ -33450,7 +33428,8 @@ nodes = (
 "40 340 LINE",
 "117 340 LINE",
 "117 53 LINE",
-"39 53 LINE"
+"39 53 LINE",
+"39 0 LINE"
 );
 }
 );
@@ -33468,7 +33447,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"47 0 LINE",
 "247 0 LINE",
 "247 22 LINE",
 "152 22 LINE",
@@ -33495,7 +33473,8 @@ nodes = (
 "45 371 LINE",
 "123 371 LINE",
 "123 22 LINE",
-"47 22 LINE"
+"47 22 LINE",
+"47 0 LINE"
 );
 }
 );
@@ -33513,8 +33492,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"69 109 LINE",
-"69 0 LINE",
 "438 0 LINE",
 "438 109 LINE",
 "335 109 LINE",
@@ -33540,7 +33517,9 @@ nodes = (
 "69 393 LINE",
 "69 283 LINE",
 "164 283 LINE",
-"164 109 LINE"
+"164 109 LINE",
+"69 109 LINE",
+"69 0 LINE"
 );
 }
 );
@@ -33554,7 +33533,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = ordfeminine;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -33568,7 +33547,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"150 244 CURVE SMOOTH",
 "194 244 OFFCURVE",
 "229 257 OFFCURVE",
 "256 280 CURVE",
@@ -33598,13 +33576,13 @@ nodes = (
 "41 410 OFFCURVE",
 "41 337 CURVE SMOOTH",
 "41 287 OFFCURVE",
-"81 244 OFFCURVE"
+"81 244 OFFCURVE",
+"150 244 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"159 287 CURVE SMOOTH",
 "122 287 OFFCURVE",
 "101 309 OFFCURVE",
 "101 340 CURVE SMOOTH",
@@ -33616,7 +33594,8 @@ nodes = (
 "254 389 CURVE",
 "254 321 LINE",
 "228 299 OFFCURVE",
-"192 287 OFFCURVE"
+"192 287 OFFCURVE",
+"159 287 CURVE SMOOTH"
 );
 }
 );
@@ -33628,7 +33607,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"160 274 CURVE SMOOTH",
 "198 274 OFFCURVE",
 "244 290 OFFCURVE",
 "269 310 CURVE",
@@ -33658,13 +33636,13 @@ nodes = (
 "60 426 OFFCURVE",
 "60 360 CURVE SMOOTH",
 "60 315 OFFCURVE",
-"91 274 OFFCURVE"
+"91 274 OFFCURVE",
+"160 274 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"161 295 CURVE SMOOTH",
 "111 295 OFFCURVE",
 "86 322 OFFCURVE",
 "86 360 CURVE SMOOTH",
@@ -33676,7 +33654,8 @@ nodes = (
 "268 417 CURVE",
 "268 333 LINE",
 "240 308 OFFCURVE",
-"199 295 OFFCURVE"
+"199 295 OFFCURVE",
+"161 295 CURVE SMOOTH"
 );
 }
 );
@@ -33688,7 +33667,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"208 229 CURVE SMOOTH",
 "240 229 OFFCURVE",
 "281 240 OFFCURVE",
 "312 259 CURVE",
@@ -33718,13 +33696,13 @@ nodes = (
 "89 410 OFFCURVE",
 "89 337 CURVE SMOOTH",
 "89 262 OFFCURVE",
-"147 229 OFFCURVE"
+"147 229 OFFCURVE",
+"208 229 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"254 301 CURVE SMOOTH",
 "234 301 OFFCURVE",
 "218 313 OFFCURVE",
 "218 333 CURVE SMOOTH",
@@ -33736,7 +33714,8 @@ nodes = (
 "290 366 CURVE",
 "290 313 LINE",
 "277 304 OFFCURVE",
-"264 301 OFFCURVE"
+"264 301 OFFCURVE",
+"254 301 CURVE SMOOTH"
 );
 }
 );
@@ -33767,7 +33746,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = ordmasculine;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
@@ -33781,7 +33760,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"221 242 CURVE SMOOTH",
 "318 242 OFFCURVE",
 "391 307 OFFCURVE",
 "391 409 CURVE SMOOTH",
@@ -33792,13 +33770,13 @@ nodes = (
 "53 509 OFFCURVE",
 "53 409 CURVE SMOOTH",
 "53 307 OFFCURVE",
-"125 242 OFFCURVE"
+"125 242 OFFCURVE",
+"221 242 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"222 292 CURVE SMOOTH",
 "164 292 OFFCURVE",
 "118 335 OFFCURVE",
 "118 408 CURVE SMOOTH",
@@ -33809,7 +33787,8 @@ nodes = (
 "326 481 OFFCURVE",
 "326 409 CURVE SMOOTH",
 "326 335 OFFCURVE",
-"280 292 OFFCURVE"
+"280 292 OFFCURVE",
+"222 292 CURVE SMOOTH"
 );
 }
 );
@@ -33821,7 +33800,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"200 270 CURVE SMOOTH",
 "280 270 OFFCURVE",
 "350 320 OFFCURVE",
 "350 422 CURVE SMOOTH",
@@ -33832,13 +33810,13 @@ nodes = (
 "51 522 OFFCURVE",
 "51 422 CURVE SMOOTH",
 "51 320 OFFCURVE",
-"121 270 OFFCURVE"
+"121 270 OFFCURVE",
+"200 270 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"200 292 CURVE SMOOTH",
 "138 292 OFFCURVE",
 "79 331 OFFCURVE",
 "79 421 CURVE SMOOTH",
@@ -33849,7 +33827,8 @@ nodes = (
 "322 512 OFFCURVE",
 "322 422 CURVE SMOOTH",
 "322 331 OFFCURVE",
-"263 292 OFFCURVE"
+"263 292 OFFCURVE",
+"200 292 CURVE SMOOTH"
 );
 }
 );
@@ -33861,24 +33840,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"257 319 CURVE SMOOTH",
-"223 318 OFFCURVE",
-"202 353 OFFCURVE",
-"202 407 CURVE SMOOTH",
-"202 453 OFFCURVE",
-"223 483 OFFCURVE",
-"257 483 CURVE SMOOTH",
-"291 483 OFFCURVE",
-"313 453 OFFCURVE",
-"313 407 CURVE SMOOTH",
-"313 353 OFFCURVE",
-"291 318 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"257 229 CURVE SMOOTH",
 "378 229 OFFCURVE",
 "457 300 OFFCURVE",
 "457 408 CURVE SMOOTH",
@@ -33889,7 +33850,25 @@ nodes = (
 "57 508 OFFCURVE",
 "57 408 CURVE SMOOTH",
 "57 300 OFFCURVE",
-"136 229 OFFCURVE"
+"136 229 OFFCURVE",
+"257 229 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"223 318 OFFCURVE",
+"202 353 OFFCURVE",
+"202 407 CURVE SMOOTH",
+"202 453 OFFCURVE",
+"223 483 OFFCURVE",
+"257 483 CURVE SMOOTH",
+"291 483 OFFCURVE",
+"313 453 OFFCURVE",
+"313 407 CURVE SMOOTH",
+"313 353 OFFCURVE",
+"291 318 OFFCURVE",
+"257 319 CURVE SMOOTH"
 );
 }
 );
@@ -34226,7 +34205,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = uni03BC;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 components = (
@@ -34239,10 +34218,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"77 -135 LINE",
 "151 -135 LINE",
 "151 198 LINE",
-"77 198 LINE"
+"77 198 LINE",
+"77 -135 LINE"
 );
 }
 );
@@ -34259,10 +34238,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"94 -150 LINE",
 "124 -150 LINE",
 "124 186 LINE",
-"94 186 LINE"
+"94 186 LINE",
+"94 -150 LINE"
 );
 }
 );
@@ -34279,10 +34258,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"63 -128 LINE",
 "235 -128 LINE",
 "235 204 LINE",
-"63 204 LINE"
+"63 204 LINE",
+"63 -128 LINE"
 );
 }
 );
@@ -34297,7 +34276,7 @@ org.robofab.postScriptHintData = {
 },
 {
 glyphname = pi;
-lastChange = "2016-08-04 13:14:40 +0000";
+lastChange = "2016-08-04 16:10:37 +0000";
 layers = (
 {
 layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
@@ -34305,7 +34284,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"438 -8 CURVE SMOOTH",
 "462 -8 OFFCURVE",
 "488 -1 OFFCURVE",
 "510 12 CURVE",
@@ -34344,7 +34322,8 @@ nodes = (
 "337 159 OFFCURVE",
 "337 102 CURVE SMOOTH",
 "337 33 OFFCURVE",
-"365 -8 OFFCURVE"
+"365 -8 OFFCURVE",
+"438 -8 CURVE SMOOTH"
 );
 }
 );
@@ -34356,7 +34335,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"440 -5 CURVE SMOOTH",
 "454 -5 OFFCURVE",
 "473 -1 OFFCURVE",
 "490 5 CURVE",
@@ -34395,7 +34373,8 @@ nodes = (
 "354 176 OFFCURVE",
 "354 114 CURVE SMOOTH",
 "354 33 OFFCURVE",
-"385 -5 OFFCURVE"
+"385 -5 OFFCURVE",
+"440 -5 CURVE SMOOTH"
 );
 }
 );
@@ -34407,7 +34386,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"490 -11 CURVE SMOOTH",
 "534 -11 OFFCURVE",
 "578 7 OFFCURVE",
 "589 24 CURVE",
@@ -34447,7 +34425,8 @@ nodes = (
 "353 149 OFFCURVE",
 "353 99 CURVE SMOOTH",
 "353 39 OFFCURVE",
-"384 -11 OFFCURVE"
+"384 -11 OFFCURVE",
+"490 -11 CURVE SMOOTH"
 );
 }
 );
@@ -51600,12 +51579,416 @@ name = hheaLineGap;
 value = 0;
 }
 );
-interpolationWeight = 600;
 instanceInterpolations = {
-"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.333333;
-"EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE" = 0.666667;
+"98C086B7-81AA-4491-8494-0C6A76849168" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = typoAscender;
+value = 893;
+},
+{
+name = typoDescender;
+value = -211;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1039;
+},
+{
+name = winDescent;
+value = 353;
+},
+{
+name = underlineThickness;
+value = 0;
+},
+{
+name = underlinePosition;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+interpolationWeight = 198;
+instanceInterpolations = {
+"98C086B7-81AA-4491-8494-0C6A76849168" = 0.673333;
+"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.326667;
+};
+name = "Extra Light";
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = typoAscender;
+value = 893;
+},
+{
+name = typoDescender;
+value = -211;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1039;
+},
+{
+name = winDescent;
+value = 353;
+},
+{
+name = underlineThickness;
+value = 0;
+},
+{
+name = underlinePosition;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+interpolationWeight = 267;
+instanceInterpolations = {
+"98C086B7-81AA-4491-8494-0C6A76849168" = 0.443333;
+"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.556667;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = typoAscender;
+value = 893;
+},
+{
+name = typoDescender;
+value = -211;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1039;
+},
+{
+name = winDescent;
+value = 353;
+},
+{
+name = underlineThickness;
+value = 0;
+},
+{
+name = underlinePosition;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+interpolationWeight = 400;
+instanceInterpolations = {
+"BE4F947C-73D7-4684-AEED-17801393DA53" = 1;
 };
 name = Regular;
+},
+{
+customParameters = (
+{
+name = typoAscender;
+value = 893;
+},
+{
+name = typoDescender;
+value = -211;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1039;
+},
+{
+name = winDescent;
+value = 353;
+},
+{
+name = underlineThickness;
+value = 0;
+},
+{
+name = underlinePosition;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+interpolationWeight = 500;
+instanceInterpolations = {
+"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.8;
+"EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE" = 0.2;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = typoAscender;
+value = 893;
+},
+{
+name = typoDescender;
+value = -211;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1039;
+},
+{
+name = winDescent;
+value = 353;
+},
+{
+name = underlineThickness;
+value = 0;
+},
+{
+name = underlinePosition;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+interpolationWeight = 526;
+instanceInterpolations = {
+"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.748;
+"EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE" = 0.252;
+};
+name = "Semi Bold";
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = typoAscender;
+value = 893;
+},
+{
+name = typoDescender;
+value = -211;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1039;
+},
+{
+name = winDescent;
+value = 353;
+},
+{
+name = underlineThickness;
+value = 0;
+},
+{
+name = underlinePosition;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+interpolationWeight = 635;
+instanceInterpolations = {
+"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.53;
+"EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE" = 0.47;
+};
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = typoAscender;
+value = 893;
+},
+{
+name = typoDescender;
+value = -211;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1039;
+},
+{
+name = winDescent;
+value = 353;
+},
+{
+name = underlineThickness;
+value = 0;
+},
+{
+name = underlinePosition;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+interpolationWeight = 769;
+instanceInterpolations = {
+"BE4F947C-73D7-4684-AEED-17801393DA53" = 0.262;
+"EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE" = 0.738;
+};
+name = "Extra Bold";
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = typoAscender;
+value = 893;
+},
+{
+name = typoDescender;
+value = -211;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1039;
+},
+{
+name = winDescent;
+value = 353;
+},
+{
+name = underlineThickness;
+value = 0;
+},
+{
+name = underlinePosition;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 893;
+},
+{
+name = hheaDescender;
+value = -211;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+interpolationWeight = 900;
+instanceInterpolations = {
+"EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE" = 1;
+};
+name = Black;
+weightClass = Black;
 }
 );
 kerning = {
