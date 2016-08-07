@@ -7,6 +7,8 @@ Rokkitt is a Free Software Slab Serif font family.
 - Updated version number to V3.000
 - Added vertical metrics
 - Ran tidied up paths
+- Tidied up master compatilibity. This still needs further work
+- Add instances
 
 # Todo:
 - Improve README.md
