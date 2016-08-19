@@ -758,37 +758,54 @@ nineinferior
 date = "2016-08-04 09:56:17 +0000";
 designer = "Vernon Adams";
 designerURL = "http://www.newtypography.co.uk";
-familyName = Rokkitt;
+familyName = "Rokkitt New Test";
 featurePrefixes = (
 {
-code = "languagesystem DFLT dflt;\012languagesystem grek dflt;\012languagesystem latn AZE ;\012languagesystem latn CAT ;\012languagesystem latn CRT ;\012languagesystem latn dflt;\012languagesystem latn KAZ ;\012languagesystem latn MOL ;\012languagesystem latn ROM ;\012languagesystem latn TAT ;\012languagesystem latn TRK ;\012\012# GSUB \012lookup loclLocalizedFormsinLatinlookup {\012  lookupflag 0;\012    sub  \\l' \\periodcentered' \\l   by \\ldot ;\012  subtable;\012    sub  \\L' \\periodcentered' \\L   by \\Ldot ;\012} loclLocalizedFormsinLatinlookup;\012\012lookup sub_single_locllatn_0 {\012  lookupflag 0;\012    sub \\Scedilla by \\uni0218 ;\012    sub \\uni0162 by \\uni021A ;\012    sub \\scedilla by \\uni0219 ;\012    sub \\uni0163 by \\uni021B ;\012} sub_single_locllatn_0;\012\012lookup sub_single_locllatn_2 {\012  lookupflag 0;\012    sub \\Scedilla by \\uni0218 ;\012    sub \\uni0162 by \\uni021A ;\012    sub \\scedilla by \\uni0219 ;\012    sub \\uni0163 by \\uni021B ;\012} sub_single_locllatn_2;\012\012lookup sub_single_locllatn_4 {\012  lookupflag 0;\012    sub \\i by \\idotaccent ;\012} sub_single_locllatn_4;\012\012lookup sub_single_locllatn_6 {\012  lookupflag 0;\012    sub \\i by \\idotaccent ;\012} sub_single_locllatn_6;\012\012lookup sub_single_locllatn_8 {\012  lookupflag 0;\012    sub \\i by \\idotaccent ;\012} sub_single_locllatn_8;\012\012lookup sub_single_locllatn_10 {\012  lookupflag 0;\012    sub \\i by \\idotaccent ;\012} sub_single_locllatn_10;\012\012lookup sub_single_locllatn_12 {\012  lookupflag 0;\012    sub \\i by \\idotaccent ;\012} sub_single_locllatn_12;\012\012lookup supsSuperscriptlookup10 {\012  lookupflag 0;\012    sub \\four by \\uni2074 ;\012    sub \\one by \\uni00B9 ;\012    sub \\three by \\uni00B3 ;\012    sub \\two by \\uni00B2 ;\012} supsSuperscriptlookup10;\012\012lookup fracDiagonalFractionslookup11 {\012  lookupflag 0;\012    sub \\one \\slash \\two  by \\onehalf;\012    sub \\one \\slash \\four  by \\onequarter;\012    sub \\three \\slash \\four  by \\threequarters;\012} fracDiagonalFractionslookup11;\012\012lookup ordnOrdinalslookup12 {\012  lookupflag 0;\012    sub [       \\zero \\one \\two \\three \\four \\five \\six \\seven \\eight \\nine        ] [       \\A \\a        ]'  by [       \\ordfeminine \\ordfeminine        ];\012  subtable;\012    sub [       \\zero \\one \\two \\three \\four \\five \\six \\seven \\eight \\nine        ] [       \\O \\o        ]'  by [       \\ordmasculine \\ordmasculine        ];\012} ordnOrdinalslookup12;\012\012lookup ligaStandardLigatureslookup15 {\012  lookupflag 0;\012    sub \\f \\f  by \\f_f;\012    sub \\f \\f \\i  by \\f_f_i;\012    sub \\f \\f \\l  by \\f_f_l;\012    sub \\f \\i  by \\uniFB01;\012    sub \\f \\l  by \\uniFB02;\012} ligaStandardLigatureslookup15;\012\012lookup dligDiscretionaryLigatureslooku {\012  lookupflag 0;\012    sub \\f \\f  by \\ff;\012    sub \\f \\f \\i  by \\ffi;\012    sub \\f \\f \\l  by \\ffl;\012    sub \\f \\j  by \\fj;\012} dligDiscretionaryLigatureslooku;";
-name = Prefix;
+automatic = 1;
+code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn CAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn CRT;\012languagesystem latn AZE;\012";
+name = Languagesystems;
 }
 );
 features = (
 {
-code = " script latn;\012     language dflt ;\012      lookup loclLocalizedFormsinLatinlookup;\012      lookup sub_single_locllatn_0;\012      lookup sub_single_locllatn_2;\012      lookup sub_single_locllatn_4;\012      lookup sub_single_locllatn_6;\012      lookup sub_single_locllatn_8;\012      lookup sub_single_locllatn_10;\012      lookup sub_single_locllatn_12;\012     language AZE  exclude_dflt;\012      lookup sub_single_locllatn_12;\012     language CAT  exclude_dflt;\012      lookup loclLocalizedFormsinLatinlookup;\012     language CRT  exclude_dflt;\012      lookup sub_single_locllatn_10;\012     language KAZ  exclude_dflt;\012      lookup sub_single_locllatn_4;\012     language MOL  exclude_dflt;\012      lookup sub_single_locllatn_2;\012     language ROM  exclude_dflt;\012      lookup sub_single_locllatn_0;\012     language TAT  exclude_dflt;\012      lookup sub_single_locllatn_6;\012     language TRK  exclude_dflt;\012      lookup sub_single_locllatn_8;";
+automatic = 1;
+code = "feature ccmp;\012feature locl;\012feature sups;\012feature frac;\012feature ordn;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_latn_1 {\012	script latn;\012	@CombiningTopAccents = [breveinvertedcomb commaturnedabovecomb dblgravecomb dotaccentcomb];\012	@CombiningNonTopAccents = [dotaboverightcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} ccmp_latn_1;\012";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012";
 name = locl;
 },
 {
-code = " script DFLT;\012     language dflt ;\012      lookup supsSuperscriptlookup10;\012\012 script grek;\012     language dflt ;\012      lookup supsSuperscriptlookup10;\012\012 script latn;\012     language dflt ;\012      lookup supsSuperscriptlookup10;\012     language CAT  exclude_dflt;\012      lookup supsSuperscriptlookup10;\012     language MOL  exclude_dflt;\012      lookup supsSuperscriptlookup10;\012     language ROM  exclude_dflt;\012      lookup supsSuperscriptlookup10;";
+automatic = 1;
+code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012";
 name = sups;
 },
 {
-code = " script DFLT;\012     language dflt ;\012      lookup fracDiagonalFractionslookup11;\012\012 script grek;\012     language dflt ;\012      lookup fracDiagonalFractionslookup11;\012\012 script latn;\012     language dflt ;\012      lookup fracDiagonalFractionslookup11;\012     language CAT  exclude_dflt;\012      lookup fracDiagonalFractionslookup11;\012     language MOL  exclude_dflt;\012      lookup fracDiagonalFractionslookup11;\012     language ROM  exclude_dflt;\012      lookup fracDiagonalFractionslookup11;";
+automatic = 1;
+code = "sub one slash four by onequarter;\012sub one slash two by onehalf;\012sub three slash four by threequarters;\012";
 name = frac;
 },
 {
-code = " script DFLT;\012     language dflt ;\012      lookup ordnOrdinalslookup12;\012\012 script grek;\012     language dflt ;\012      lookup ordnOrdinalslookup12;\012\012 script latn;\012     language dflt ;\012      lookup ordnOrdinalslookup12;\012     language CAT  exclude_dflt;\012      lookup ordnOrdinalslookup12;\012     language MOL  exclude_dflt;\012      lookup ordnOrdinalslookup12;\012     language ROM  exclude_dflt;\012      lookup ordnOrdinalslookup12;";
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
 name = ordn;
 },
 {
-code = " script DFLT;\012     language dflt ;\012      lookup ligaStandardLigatureslookup15;\012\012 script grek;\012     language dflt ;\012      lookup ligaStandardLigatureslookup15;\012\012 script latn;\012     language dflt ;\012      lookup ligaStandardLigatureslookup15;\012     language CAT  exclude_dflt;\012      lookup ligaStandardLigatureslookup15;\012     language MOL  exclude_dflt;\012      lookup ligaStandardLigatureslookup15;\012     language ROM  exclude_dflt;\012      lookup ligaStandardLigatureslookup15;";
-name = liga;
+automatic = 1;
+code = "sub f j by f_j;\012";
+name = dlig;
 },
 {
-code = " script DFLT;\012     language dflt ;\012      lookup dligDiscretionaryLigatureslooku;\012\012 script grek;\012     language dflt ;\012      lookup dligDiscretionaryLigatureslooku;\012\012 script latn;\012     language dflt ;\012      lookup dligDiscretionaryLigatureslooku;\012     language CAT  exclude_dflt;\012      lookup dligDiscretionaryLigatureslooku;\012     language MOL  exclude_dflt;\012      lookup dligDiscretionaryLigatureslooku;\012     language ROM  exclude_dflt;\012      lookup dligDiscretionaryLigatureslooku;";
-name = dlig;
+automatic = 1;
+code = "sub f f l by f_f_l;\012sub f f i by f_f_i;\012sub f i by fi;\012sub f f by f_f;\012sub f l by fl;\012";
+name = liga;
 }
 );
 fontMaster = (
@@ -902,6 +919,11 @@ value = 0;
 }
 );
 descender = -200;
+guideLines = (
+{
+position = "{689, 403}";
+}
+);
 id = "BE4F947C-73D7-4684-AEED-17801393DA53";
 weightValue = 400;
 xHeight = 393;
@@ -1225,46 +1247,6 @@ width = 269;
 );
 widthMetricsKey = space;
 unicode = 000D;
-},
-{
-glyphname = CR;
-layers = (
-{
-layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
-width = 293;
-},
-{
-layerId = "98C086B7-81AA-4491-8494-0C6A76849168";
-width = 293;
-},
-{
-layerId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
-width = 293;
-},
-{
-associatedMasterId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
-layerId = "B886DE78-8359-4BDA-9466-78178BDC0AC4";
-name = "Bold Aug 18 16, 16:59";
-width = 293;
-},
-{
-associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
-layerId = "B087A0E2-C895-48CC-9034-C42C62DD29F4";
-name = "Regular Aug 18 16, 17:57";
-width = 293;
-},
-{
-associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
-layerId = "0A6D31C6-FC59-4E09-A5BC-9706C65399FD";
-name = "Light Aug 18 16, 17:57";
-width = 293;
-}
-);
-unicode = 000D;
-userData = {
-org.robofab.postScriptHintData = {
-};
-};
 },
 {
 glyphname = space;
