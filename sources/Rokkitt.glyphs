@@ -1,6 +1,6 @@
 {
-.appVersion = "895";
-copyright = "Copyright (c) 2016, The Rokkit Project Authors (vern@newtypography.co.uk), with Reserved Font Name ‘Rokkit’";
+.appVersion = "924";
+copyright = "Copyright 2016 The Rokkit Project Authors (contact@sansoxygen.com)";
 customParameters = (
 {
 name = vendorID;
@@ -34,7 +34,7 @@ value = 1;
 );
 date = "2016-08-04 09:56:17 +0000";
 designer = "Vernon Adams";
-designerURL = www.sansoxygen.com;
+designerURL = "http://www.sansoxygen.com";
 familyName = Rokkitt;
 featurePrefixes = (
 {
@@ -42238,6 +42238,154 @@ org.robofab.postScriptHintData = {
 };
 },
 {
+glyphname = schwa;
+layers = (
+{
+layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
+paths = (
+{
+closed = 1;
+nodes = (
+"346 -11 OFFCURVE",
+"436 70 OFFCURVE",
+"436 200 CURVE SMOOTH",
+"436 323 OFFCURVE",
+"343 405 OFFCURVE",
+"223 405 CURVE SMOOTH",
+"141 405 OFFCURVE",
+"80 369 OFFCURVE",
+"42 330 CURVE",
+"68 285 LINE",
+"108 321 OFFCURVE",
+"162 348 OFFCURVE",
+"226 348 CURVE SMOOTH",
+"306 348 OFFCURVE",
+"360 288 OFFCURVE",
+"360 192 CURVE SMOOTH",
+"360 99 OFFCURVE",
+"306 43 OFFCURVE",
+"235 43 CURVE SMOOTH",
+"162 43 OFFCURVE",
+"108 88 OFFCURVE",
+"108 166 CURVE",
+"370 166 LINE",
+"371 212 LINE",
+"35 212 LINE",
+"35 193 LINE SMOOTH",
+"35 69 OFFCURVE",
+"110 -11 OFFCURVE",
+"232 -11 CURVE SMOOTH"
+);
+}
+);
+width = 461;
+},
+{
+layerId = "98C086B7-81AA-4491-8494-0C6A76849168";
+paths = (
+{
+closed = 1;
+nodes = (
+"345 -11 OFFCURVE",
+"444 59 OFFCURVE",
+"444 196 CURVE SMOOTH",
+"444 327 OFFCURVE",
+"345 404 OFFCURVE",
+"237 404 CURVE SMOOTH",
+"176 404 OFFCURVE",
+"112 379 OFFCURVE",
+"62 330 CURVE",
+"72 308 LINE",
+"106 349 OFFCURVE",
+"174 381 OFFCURVE",
+"236 381 CURVE SMOOTH",
+"337 381 OFFCURVE",
+"415 304 OFFCURVE",
+"415 194 CURVE SMOOTH",
+"415 81 OFFCURVE",
+"337 11 OFFCURVE",
+"244 11 CURVE SMOOTH",
+"161 11 OFFCURVE",
+"80 65 OFFCURVE",
+"80 183 CURVE",
+"420 183 LINE",
+"420 204 LINE",
+"53 204 LINE",
+"53 198 LINE SMOOTH",
+"53 54 OFFCURVE",
+"142 -11 OFFCURVE",
+"244 -11 CURVE SMOOTH"
+);
+}
+);
+width = 474;
+},
+{
+layerId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"350 -10 OFFCURVE",
+"438 78 OFFCURVE",
+"438 201 CURVE SMOOTH",
+"438 338 OFFCURVE",
+"353 413 OFFCURVE",
+"215 413 CURVE SMOOTH",
+"136 413 OFFCURVE",
+"65 386 OFFCURVE",
+"16 351 CURVE",
+"62 247 LINE",
+"94 267 OFFCURVE",
+"135 283 OFFCURVE",
+"178 283 CURVE SMOOTH",
+"237 283 OFFCURVE",
+"278 254 OFFCURVE",
+"278 190 CURVE SMOOTH",
+"278 134 OFFCURVE",
+"265 101 OFFCURVE",
+"224 101 CURVE SMOOTH",
+"190 101 OFFCURVE",
+"174 122 OFFCURVE",
+"174 158 CURVE",
+"349 158 LINE",
+"350 228 LINE",
+"14 228 LINE",
+"14 197 LINE SMOOTH",
+"14 78 OFFCURVE",
+"81 -10 OFFCURVE",
+"220 -10 CURVE SMOOTH"
+);
+}
+);
+width = 454;
+},
+{
+associatedMasterId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
+layerId = "692371EF-1390-4A64-8973-24C2B03553D7";
+name = "Bold Aug 18 16, 16:59";
+width = 293;
+},
+{
+associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
+layerId = "DCCBA120-EFF2-48BF-9C5F-093C9FA1DEB1";
+name = "Regular Aug 18 16, 17:57";
+width = 293;
+},
+{
+associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
+layerId = "FB04CA85-A752-49BB-849A-FE5D6B347294";
+name = "Light Aug 18 16, 17:57";
+width = 293;
+}
+);
+unicode = 0259;
+userData = {
+org.robofab.postScriptHintData = {
+};
+};
+},
+{
 glyphname = f;
 layers = (
 {
@@ -59649,154 +59797,6 @@ unicodes = (
 width = 1198;
 };
 };
-org.robofab.postScriptHintData = {
-};
-};
-},
-{
-glyphname = schwa;
-layers = (
-{
-layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
-paths = (
-{
-closed = 1;
-nodes = (
-"346 -11 OFFCURVE",
-"436 70 OFFCURVE",
-"436 200 CURVE SMOOTH",
-"436 323 OFFCURVE",
-"343 405 OFFCURVE",
-"223 405 CURVE SMOOTH",
-"141 405 OFFCURVE",
-"80 369 OFFCURVE",
-"42 330 CURVE",
-"68 285 LINE",
-"108 321 OFFCURVE",
-"162 348 OFFCURVE",
-"226 348 CURVE SMOOTH",
-"306 348 OFFCURVE",
-"360 288 OFFCURVE",
-"360 192 CURVE SMOOTH",
-"360 99 OFFCURVE",
-"306 43 OFFCURVE",
-"235 43 CURVE SMOOTH",
-"162 43 OFFCURVE",
-"108 88 OFFCURVE",
-"108 166 CURVE",
-"370 166 LINE",
-"371 212 LINE",
-"35 212 LINE",
-"35 193 LINE SMOOTH",
-"35 69 OFFCURVE",
-"110 -11 OFFCURVE",
-"232 -11 CURVE SMOOTH"
-);
-}
-);
-width = 461;
-},
-{
-layerId = "98C086B7-81AA-4491-8494-0C6A76849168";
-paths = (
-{
-closed = 1;
-nodes = (
-"345 -11 OFFCURVE",
-"444 59 OFFCURVE",
-"444 196 CURVE SMOOTH",
-"444 327 OFFCURVE",
-"345 404 OFFCURVE",
-"237 404 CURVE SMOOTH",
-"176 404 OFFCURVE",
-"112 379 OFFCURVE",
-"62 330 CURVE",
-"72 308 LINE",
-"106 349 OFFCURVE",
-"174 381 OFFCURVE",
-"236 381 CURVE SMOOTH",
-"337 381 OFFCURVE",
-"415 304 OFFCURVE",
-"415 194 CURVE SMOOTH",
-"415 81 OFFCURVE",
-"337 11 OFFCURVE",
-"244 11 CURVE SMOOTH",
-"161 11 OFFCURVE",
-"80 65 OFFCURVE",
-"80 183 CURVE",
-"420 183 LINE",
-"420 204 LINE",
-"53 204 LINE",
-"53 198 LINE SMOOTH",
-"53 54 OFFCURVE",
-"142 -11 OFFCURVE",
-"244 -11 CURVE SMOOTH"
-);
-}
-);
-width = 474;
-},
-{
-layerId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"350 -10 OFFCURVE",
-"438 78 OFFCURVE",
-"438 201 CURVE SMOOTH",
-"438 338 OFFCURVE",
-"353 413 OFFCURVE",
-"215 413 CURVE SMOOTH",
-"136 413 OFFCURVE",
-"65 386 OFFCURVE",
-"16 351 CURVE",
-"62 247 LINE",
-"94 267 OFFCURVE",
-"135 283 OFFCURVE",
-"178 283 CURVE SMOOTH",
-"237 283 OFFCURVE",
-"278 254 OFFCURVE",
-"278 190 CURVE SMOOTH",
-"278 134 OFFCURVE",
-"265 101 OFFCURVE",
-"224 101 CURVE SMOOTH",
-"190 101 OFFCURVE",
-"174 122 OFFCURVE",
-"174 158 CURVE",
-"349 158 LINE",
-"350 228 LINE",
-"14 228 LINE",
-"14 197 LINE SMOOTH",
-"14 78 OFFCURVE",
-"81 -10 OFFCURVE",
-"220 -10 CURVE SMOOTH"
-);
-}
-);
-width = 454;
-},
-{
-associatedMasterId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
-layerId = "692371EF-1390-4A64-8973-24C2B03553D7";
-name = "Bold Aug 18 16, 16:59";
-width = 293;
-},
-{
-associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
-layerId = "DCCBA120-EFF2-48BF-9C5F-093C9FA1DEB1";
-name = "Regular Aug 18 16, 17:57";
-width = 293;
-},
-{
-associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
-layerId = "FB04CA85-A752-49BB-849A-FE5D6B347294";
-name = "Light Aug 18 16, 17:57";
-width = 293;
-}
-);
-unicode = 0259;
-userData = {
 org.robofab.postScriptHintData = {
 };
 };
@@ -81859,67 +81859,6 @@ width = 518;
 }
 );
 userData = {
-org.robofab.postScriptHintData = {
-};
-};
-},
-{
-glyphname = .null;
-layers = (
-{
-associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
-layerId = "3B269425-FAD3-42E1-BCD1-91F05F251900";
-name = b;
-width = 0;
-},
-{
-layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
-width = 0;
-},
-{
-layerId = "98C086B7-81AA-4491-8494-0C6A76849168";
-width = 0;
-},
-{
-layerId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
-width = 0;
-},
-{
-associatedMasterId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
-layerId = "A5002801-2D2A-4544-8E7F-1C0B984C9D03";
-name = "Bold Aug 18 16, 16:59";
-width = 0;
-},
-{
-associatedMasterId = "BE4F947C-73D7-4684-AEED-17801393DA53";
-layerId = "15C1A498-C5D1-4F0D-966A-26604A8922A1";
-name = "Regular Aug 18 16, 17:57";
-width = 0;
-},
-{
-associatedMasterId = "98C086B7-81AA-4491-8494-0C6A76849168";
-layerId = "6B0ADE34-DCC3-4906-8C7C-43AE88D4CB14";
-name = "Light Aug 18 16, 17:57";
-width = 0;
-}
-);
-userData = {
-com.typemytype.robofont.layerData = {
-b = {
-anchors = (
-);
-components = (
-);
-contours = (
-);
-lib = {
-};
-name = NULL;
-unicodes = (
-);
-width = -240;
-};
-};
 org.robofab.postScriptHintData = {
 };
 };
@@ -105014,6 +104953,24 @@ width = 313;
 org.robofab.postScriptHintData = {
 };
 };
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = "98C086B7-81AA-4491-8494-0C6A76849168";
+width = 0;
+},
+{
+layerId = "BE4F947C-73D7-4684-AEED-17801393DA53";
+width = 0;
+},
+{
+layerId = "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE";
+width = 0;
+}
+);
+unicode = 0000;
 }
 );
 disablesNiceNames = 1;
@@ -105108,6 +105065,10 @@ value = -320;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = weightClass;
+value = 275;
 }
 );
 interpolationWeight = 198;
@@ -105368,6 +105329,7 @@ instanceInterpolations = {
 "BE4F947C-73D7-4684-AEED-17801393DA53" = 0.53;
 "EFCDB4D9-E20B-4A8D-9DB5-150AD166B0AE" = 0.47;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
@@ -105545,7 +105507,7 @@ g = -4.39453;
 };
 };
 manufacturer = "Vernon Adams";
-manufacturerURL = www.sansoxygen.com;
+manufacturerURL = "http://www.sansoxygen.com";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
