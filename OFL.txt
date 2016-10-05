@@ -1,4 +1,4 @@
-Copyright (c) 2016, The Rokkit Project Authors (vern@newtypography.co.uk), 
+Copyright 2016 The Rokkit Project Authors (contact@sansoxygen.com), 
 with Reserved Font Name ‘Rokkit’
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
