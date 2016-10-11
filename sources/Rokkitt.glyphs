@@ -1,5 +1,5 @@
 {
-.appVersion = "924";
+.appVersion = "926";
 copyright = "Copyright 2016 The Rokkit Project Authors (contact@sansoxygen.com)";
 customParameters = (
 {
@@ -35,6 +35,7 @@ value = 1;
 date = "2016-08-04 09:56:17 +0000";
 designer = "Vernon Adams";
 designerURL = "http://www.sansoxygen.com";
+disablesNiceNames = 1;
 familyName = Rokkitt;
 featurePrefixes = (
 {
@@ -93,6 +94,18 @@ ascender = 573;
 capHeight = 563;
 customParameters = (
 {
+name = hheaAscender;
+value = 817;
+},
+{
+name = hheaDescender;
+value = -320;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
 name = typoAscender;
 value = 817;
 },
@@ -111,26 +124,6 @@ value = 1111;
 {
 name = winDescent;
 value = 324;
-},
-{
-name = underlineThickness;
-value = 0;
-},
-{
-name = underlinePosition;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 817;
-},
-{
-name = hheaDescender;
-value = -320;
-},
-{
-name = hheaLineGap;
-value = 0;
 }
 );
 descender = -200;
@@ -167,6 +160,18 @@ ascender = 573;
 capHeight = 563;
 customParameters = (
 {
+name = hheaAscender;
+value = 817;
+},
+{
+name = hheaDescender;
+value = -320;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
 name = typoAscender;
 value = 817;
 },
@@ -185,26 +190,6 @@ value = 1111;
 {
 name = winDescent;
 value = 324;
-},
-{
-name = underlineThickness;
-value = 0;
-},
-{
-name = underlinePosition;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 817;
-},
-{
-name = hheaDescender;
-value = -320;
-},
-{
-name = hheaLineGap;
-value = 0;
 }
 );
 descender = -200;
@@ -241,18 +226,6 @@ ascender = 593;
 capHeight = 583;
 customParameters = (
 {
-name = typoAscender;
-value = 817;
-},
-{
-name = typoDescender;
-value = -320;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
 name = hheaAscender;
 value = 817;
 },
@@ -265,20 +238,24 @@ name = hheaLineGap;
 value = 0;
 },
 {
+name = typoAscender;
+value = 817;
+},
+{
+name = typoDescender;
+value = -320;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
 name = winAscent;
 value = 1111;
 },
 {
 name = winDescent;
 value = 324;
-},
-{
-name = underlineThickness;
-value = 0;
-},
-{
-name = underlinePosition;
-value = 0;
 }
 );
 descender = -200;
@@ -104973,7 +104950,6 @@ width = 0;
 unicode = 0000;
 }
 );
-disablesNiceNames = 1;
 instances = (
 {
 customParameters = (
