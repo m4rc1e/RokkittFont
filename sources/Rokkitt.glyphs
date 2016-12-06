@@ -1,5 +1,5 @@
 {
-.appVersion = "926";
+.appVersion = "939";
 copyright = "Copyright 2016 The Rokkit Project Authors (contact@sansoxygen.com)";
 customParameters = (
 {
@@ -32,7 +32,7 @@ name = "Disable Last Change";
 value = 1;
 }
 );
-date = "2016-08-04 09:56:17 +0000";
+date = "2016-12-06 21:35:03 +0000";
 designer = "Vernon Adams";
 designerURL = "http://www.sansoxygen.com";
 disablesNiceNames = 1;
@@ -97934,23 +97934,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"92 484 OFFCURVE",
-"101 492 OFFCURVE",
-"101 505 CURVE SMOOTH",
-"101 519 OFFCURVE",
-"92 527 OFFCURVE",
-"79 527 CURVE SMOOTH",
-"66 527 OFFCURVE",
-"57 519 OFFCURVE",
-"57 505 CURVE SMOOTH",
-"57 492 OFFCURVE",
-"66 484 OFFCURVE",
-"79 484 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
 "-65 484 OFFCURVE",
 "-57 493 OFFCURVE",
 "-57 506 CURVE SMOOTH",
@@ -97963,6 +97946,23 @@ nodes = (
 "-101 493 OFFCURVE",
 "-93 484 OFFCURVE",
 "-79 484 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"92 484 OFFCURVE",
+"101 492 OFFCURVE",
+"101 505 CURVE SMOOTH",
+"101 519 OFFCURVE",
+"92 527 OFFCURVE",
+"79 527 CURVE SMOOTH",
+"66 527 OFFCURVE",
+"57 519 OFFCURVE",
+"57 505 CURVE SMOOTH",
+"57 492 OFFCURVE",
+"66 484 OFFCURVE",
+"79 484 CURVE SMOOTH"
 );
 }
 );
@@ -97984,23 +97984,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"181 485 OFFCURVE",
-"224 515 OFFCURVE",
-"224 572 CURVE SMOOTH",
-"224 629 OFFCURVE",
-"181 659 OFFCURVE",
-"133 659 CURVE SMOOTH",
-"85 659 OFFCURVE",
-"42 629 OFFCURVE",
-"42 572 CURVE SMOOTH",
-"42 515 OFFCURVE",
-"85 485 OFFCURVE",
-"133 485 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
 "-85 485 OFFCURVE",
 "-42 515 OFFCURVE",
 "-42 572 CURVE SMOOTH",
@@ -98013,6 +97996,23 @@ nodes = (
 "-224 515 OFFCURVE",
 "-181 485 OFFCURVE",
 "-133 485 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"181 485 OFFCURVE",
+"224 515 OFFCURVE",
+"224 572 CURVE SMOOTH",
+"224 629 OFFCURVE",
+"181 659 OFFCURVE",
+"133 659 CURVE SMOOTH",
+"85 659 OFFCURVE",
+"42 629 OFFCURVE",
+"42 572 CURVE SMOOTH",
+"42 515 OFFCURVE",
+"85 485 OFFCURVE",
+"133 485 CURVE SMOOTH"
 );
 }
 );
@@ -98786,19 +98786,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"93 477 LINE",
-"186 629 LINE",
-"102 629 LINE",
-"46 477 LINE"
+"-43 477 LINE",
+"51 629 LINE",
+"-33 629 LINE",
+"-89 477 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-43 477 LINE",
-"51 629 LINE",
-"-33 629 LINE",
-"-89 477 LINE"
+"93 477 LINE",
+"186 629 LINE",
+"102 629 LINE",
+"46 477 LINE"
 );
 }
 );
@@ -98854,19 +98854,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"147 459 LINE",
-"247 642 LINE",
-"90 642 LINE",
-"49 459 LINE"
+"-67 459 LINE",
+"32 642 LINE",
+"-125 642 LINE",
+"-166 459 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-67 459 LINE",
-"32 642 LINE",
-"-125 642 LINE",
-"-166 459 LINE"
+"147 459 LINE",
+"247 642 LINE",
+"90 642 LINE",
+"49 459 LINE"
 );
 }
 );
@@ -100666,19 +100666,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"46 483 LINE",
-"-7 628 LINE",
-"-36 628 LINE",
-"31 483 LINE"
+"-49 483 LINE",
+"-101 628 LINE",
+"-131 628 LINE",
+"-64 483 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-49 483 LINE",
-"-101 628 LINE",
-"-131 628 LINE",
-"-64 483 LINE"
+"46 483 LINE",
+"-7 628 LINE",
+"-36 628 LINE",
+"31 483 LINE"
 );
 }
 );
@@ -100700,19 +100700,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"156 459 LINE",
-"115 642 LINE",
-"-42 642 LINE",
-"57 459 LINE"
+"-59 459 LINE",
+"-100 642 LINE",
+"-257 642 LINE",
+"-157 459 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-59 459 LINE",
-"-100 642 LINE",
-"-257 642 LINE",
-"-157 459 LINE"
+"156 459 LINE",
+"115 642 LINE",
+"-42 642 LINE",
+"57 459 LINE"
 );
 }
 );
@@ -106307,5 +106307,5 @@ com.typesupply.MetricsMachine4.groupColors = {
 };
 };
 versionMajor = 3;
-versionMinor = 0;
+versionMinor = 1;
 }
