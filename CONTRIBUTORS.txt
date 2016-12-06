@@ -9,6 +9,6 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Vernon Adams <vern@newtypography.co.uk>
+Vernon Adams <contact@sansoxygen.com>
 Marc Foley <m.foley.88@gmail.com>
 Kalapi Gajjar-Bordawekar <hello@kalapigajjar.com>
