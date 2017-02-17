@@ -1,5 +1,8 @@
 {
-.appVersion = "945";
+.appVersion = "976";
+DisplayStrings = (
+"\U00A5"
+);
 copyright = "Copyright 2016 The Rokkit Project Authors (contact@sansoxygen.com)";
 customParameters = (
 {
@@ -34,6 +37,10 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = note;
+value = "Interpolation passes:\012kgreenlandic\012f_f\012peseta\012s";
 }
 );
 date = "2016-12-06 21:35:03 +0000";
@@ -83025,19 +83032,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"404 215 LINE",
-"404 236 LINE",
-"-12 236 LINE",
-"-12 215 LINE"
+"404 321 LINE",
+"404 341 LINE",
+"-12 341 LINE",
+"-12 321 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"404 321 LINE",
-"404 341 LINE",
-"-12 341 LINE",
-"-12 321 LINE"
+"404 215 LINE",
+"404 236 LINE",
+"-12 236 LINE",
+"-12 215 LINE"
 );
 }
 );
@@ -85925,19 +85932,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"483 128 LINE",
-"483 174 LINE",
-"147 174 LINE",
-"147 128 LINE"
+"483 225 LINE",
+"483 270 LINE",
+"147 270 LINE",
+"147 225 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"483 225 LINE",
-"483 270 LINE",
-"147 270 LINE",
-"147 225 LINE"
+"483 128 LINE",
+"483 174 LINE",
+"147 174 LINE",
+"147 128 LINE"
 );
 }
 );
@@ -106386,5 +106393,5 @@ com.typesupply.MetricsMachine4.groupColors = {
 };
 };
 versionMajor = 3;
-versionMinor = 1;
+versionMinor = 2;
 }
