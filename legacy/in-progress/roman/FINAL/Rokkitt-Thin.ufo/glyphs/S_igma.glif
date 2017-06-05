@@ -20,7 +20,9 @@
   </outline>
   <lib>
     <dict>
-    <key>org.robofab.postScriptHintData</key>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-06-01 16:30:56 +0000</string>
+      <key>org.robofab.postScriptHintData</key>
       <dict>
       </dict>
     </dict>

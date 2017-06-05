@@ -11,9 +11,9 @@
       <point x="979" y="662"/>
       <point x="820" y="826"/>
       <point x="561" y="826" type="curve" smooth="yes"/>
-      <point x="459.453" y="826"/>
-      <point x="342.005" y="782.48"/>
-      <point x="250" y="712.284" type="curve"/>
+      <point x="459" y="826"/>
+      <point x="342" y="782"/>
+      <point x="250" y="712" type="curve"/>
       <point x="250" y="1174" type="line"/>
       <point x="74" y="1174" type="line"/>
       <point x="74" y="1140" type="line"/>
@@ -22,14 +22,14 @@
       <point x="66" y="34" type="line"/>
       <point x="66" y="0" type="line"/>
       <point x="250" y="0" type="line"/>
-      <point x="250" y="98.5197" type="line"/>
-      <point x="330.061" y="23.5535"/>
-      <point x="440.378" y="-22"/>
+      <point x="250" y="99" type="line"/>
+      <point x="330" y="24"/>
+      <point x="440" y="-22"/>
     </contour>
     <contour>
-      <point x="250" y="674.894" type="line"/>
-      <point x="346.015" y="747.281"/>
-      <point x="463.633" y="792"/>
+      <point x="250" y="675" type="line"/>
+      <point x="346" y="747"/>
+      <point x="464" y="792"/>
       <point x="561" y="792" type="curve" smooth="yes"/>
       <point x="789" y="792"/>
       <point x="932" y="641"/>
@@ -37,69 +37,75 @@
       <point x="932" y="162"/>
       <point x="783" y="12"/>
       <point x="545" y="12" type="curve" smooth="yes"/>
-      <point x="441.958" y="12"/>
-      <point x="331.563" y="60.2026"/>
-      <point x="250" y="139.623" type="curve"/>
+      <point x="442" y="12"/>
+      <point x="332" y="60"/>
+      <point x="250" y="140" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
-	<key>hhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>	    <integer>-22</integer>
-	    <key>width</key>	    <integer>34</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>792</integer>
-	    <key>width</key>	    <integer>34</integer>
-	  </dict>
-	</array>
-	<key>vhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>
-	    <integer>66</integer>
-	    <key>width</key>
-	    <integer>184</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>
-	    <integer>932</integer>
-	    <key>width</key>
-	    <integer>42</integer>
-	  </dict>
-	</array>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-22</integer>
+            <key>width</key>
+            <integer>34</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>792</integer>
+            <key>width</key>
+            <integer>34</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>66</integer>
+            <key>width</key>
+            <integer>184</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>932</integer>
+            <key>width</key>
+            <integer>42</integer>
+          </dict>
+        </array>
       </dict>
-    <key>org.robofab.postScriptHintData</key>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-06-01 16:30:56 +0000</string>
+      <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>b</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>b</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1037</integer>
+        </dict>
       </dict>
-    <key>com.typemytype.robofont.layerData</key>
+      <key>org.robofab.postScriptHintData</key>
       <dict>
-    <key>b</key>
-      <dict>
-    <key>name</key>
-      <string>b</string>
-    <key>lib</key>
-      <dict>
-      </dict>
-    <key>unicodes</key>
-      <array>
-      </array>
-    <key>width</key>
-      <integer>1037</integer>
-    <key>contours</key>
-      <array>
-      </array>
-    <key>components</key>
-      <array>
-      </array>
-    <key>anchors</key>
-      <array>
-      </array>
-      </dict>
       </dict>
     </dict>
   </lib>

@@ -22,15 +22,19 @@
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
-	<key>hhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>	    <integer>-12</integer>
-	    <key>width</key>	    <integer>27</integer>
-	  </dict>
-	</array>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-12</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+        </array>
       </dict>
-    <key>org.robofab.postScriptHintData</key>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-06-01 16:30:56 +0000</string>
+      <key>org.robofab.postScriptHintData</key>
       <dict>
       </dict>
     </dict>

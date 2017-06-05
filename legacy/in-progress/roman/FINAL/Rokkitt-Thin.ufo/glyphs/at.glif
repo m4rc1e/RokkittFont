@@ -53,11 +53,11 @@
       <point x="391" y="341"/>
       <point x="498" y="250"/>
       <point x="626" y="250" type="curve" smooth="yes"/>
-      <point x="750.756" y="250"/>
-      <point x="835.912" y="342.096"/>
-      <point x="879.698" y="464.42" type="curve"/>
-      <point x="825.81" y="299.234"/>
-      <point x="887.64" y="254.851"/>
+      <point x="751" y="250"/>
+      <point x="836" y="342"/>
+      <point x="880" y="464" type="curve"/>
+      <point x="826" y="299"/>
+      <point x="888" y="255"/>
       <point x="941" y="250" type="curve" smooth="yes"/>
       <point x="1080" y="238"/>
       <point x="1267" y="419"/>
@@ -76,80 +76,90 @@
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
-	<key>hhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>	    <integer>-25</integer>
-	    <key>width</key>	    <integer>29</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>250</integer>
-	    <key>width</key>	    <integer>29</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>862</integer>
-	    <key>width</key>	    <integer>32</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>1127</integer>
-	    <key>width</key>	    <integer>29</integer>
-	  </dict>
-	</array>
-	<key>vhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>
-	    <integer>118</integer>
-	    <key>width</key>
-	    <integer>44</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>
-	    <integer>391</integer>
-	    <key>width</key>
-	    <integer>41</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>
-	    <integer>897</integer>
-	    <key>width</key>
-	    <integer>23</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>
-	    <integer>1233</integer>
-	    <key>width</key>
-	    <integer>34</integer>
-	  </dict>
-	</array>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-25</integer>
+            <key>width</key>
+            <integer>29</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>250</integer>
+            <key>width</key>
+            <integer>29</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>862</integer>
+            <key>width</key>
+            <integer>32</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1127</integer>
+            <key>width</key>
+            <integer>29</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>118</integer>
+            <key>width</key>
+            <integer>44</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>391</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>897</integer>
+            <key>width</key>
+            <integer>23</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1233</integer>
+            <key>width</key>
+            <integer>34</integer>
+          </dict>
+        </array>
       </dict>
-    <key>org.robofab.postScriptHintData</key>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-06-01 16:30:56 +0000</string>
+      <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>b</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>at</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1379</integer>
+        </dict>
       </dict>
-    <key>com.typemytype.robofont.layerData</key>
+      <key>org.robofab.postScriptHintData</key>
       <dict>
-    <key>b</key>
-      <dict>
-    <key>name</key>
-      <string>at</string>
-    <key>lib</key>
-      <dict>
-      </dict>
-    <key>unicodes</key>
-      <array>
-      </array>
-    <key>width</key>
-      <integer>1379</integer>
-    <key>contours</key>
-      <array>
-      </array>
-    <key>components</key>
-      <array>
-      </array>
-    <key>anchors</key>
-      <array>
-      </array>
-      </dict>
       </dict>
     </dict>
   </lib>

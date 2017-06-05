@@ -22,24 +22,24 @@
       <point x="635" y="-23"/>
       <point x="817" y="120"/>
       <point x="817" y="395" type="curve" smooth="yes"/>
-      <point x="817" y="640.338"/>
-      <point x="652.563" y="866.246"/>
-      <point x="473.696" y="1049.63" type="curve"/>
+      <point x="817" y="640"/>
+      <point x="653" y="866"/>
+      <point x="474" y="1050" type="curve"/>
       <point x="713" y="1152" type="line"/>
       <point x="692" y="1187" type="line"/>
-      <point x="442.28" y="1081.28" type="line"/>
-      <point x="332.678" y="1189.85"/>
-      <point x="220.971" y="1282.16"/>
+      <point x="442" y="1081" type="line"/>
+      <point x="333" y="1190"/>
+      <point x="221" y="1282"/>
       <point x="141" y="1353" type="curve"/>
       <point x="113" y="1327" type="line"/>
-      <point x="201.208" y="1251.81"/>
-      <point x="307.771" y="1166.39"/>
-      <point x="408.946" y="1067.17" type="curve"/>
+      <point x="201" y="1252"/>
+      <point x="308" y="1166"/>
+      <point x="409" y="1067" type="curve"/>
       <point x="144" y="955" type="line"/>
       <point x="166" y="918" type="line"/>
-      <point x="440.594" y="1035.47" type="line"/>
-      <point x="537.354" y="936.404"/>
-      <point x="626.705" y="824.004"/>
+      <point x="441" y="1035" type="line"/>
+      <point x="537" y="936"/>
+      <point x="627" y="824"/>
       <point x="687" y="695" type="curve"/>
       <point x="608" y="768"/>
       <point x="499" y="808"/>
@@ -55,60 +55,66 @@
     <dict>
       <key>com.fontlab.hintData</key>
       <dict>
-	<key>hhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>	    <integer>-23</integer>
-	    <key>width</key>	    <integer>41</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>770</integer>
-	    <key>width</key>	    <integer>38</integer>
-	  </dict>
-	</array>
-	<key>vhints</key>
-	<array>
-	  <dict>
-	    <key>position</key>
-	    <integer>38</integer>
-	    <key>width</key>
-	    <integer>47</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>
-	    <integer>773</integer>
-	    <key>width</key>
-	    <integer>44</integer>
-	  </dict>
-	</array>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-23</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>770</integer>
+            <key>width</key>
+            <integer>38</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>38</integer>
+            <key>width</key>
+            <integer>47</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>773</integer>
+            <key>width</key>
+            <integer>44</integer>
+          </dict>
+        </array>
       </dict>
-    <key>org.robofab.postScriptHintData</key>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-06-01 16:30:56 +0000</string>
+      <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>b</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>eth</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>886</integer>
+        </dict>
       </dict>
-    <key>com.typemytype.robofont.layerData</key>
+      <key>org.robofab.postScriptHintData</key>
       <dict>
-    <key>b</key>
-      <dict>
-    <key>name</key>
-      <string>eth</string>
-    <key>lib</key>
-      <dict>
-      </dict>
-    <key>unicodes</key>
-      <array>
-      </array>
-    <key>width</key>
-      <integer>886</integer>
-    <key>contours</key>
-      <array>
-      </array>
-    <key>components</key>
-      <array>
-      </array>
-    <key>anchors</key>
-      <array>
-      </array>
-      </dict>
       </dict>
     </dict>
   </lib>
