@@ -29,6 +29,8 @@ do
 	gftools fix-dsig -f $vf;
 	./ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
 	mv "$vf.fix" $vf;
+	gftools fix-hinting $vf;
+	mv "$vf.fix" $vf;
 done
 
 
