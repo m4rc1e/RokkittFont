@@ -3,7 +3,7 @@
 DisplayStrings = (
 g
 );
-copyright = "Copyright 2016 The Rokkit Project Authors (contact@sansoxygen.com)";
+copyright = "Copyright 2016 The Rokkit Project Authors (https://github.com/googlefonts/RokkittFont)";
 customParameters = (
 {
 name = vendorID;
